@@ -1,0 +1,2082 @@
+================================================================================
+TOPICS FROM OWN CORPUS — consolidated topic lists extracted from the
+user's ExamVoid repo files (fp3 topics/*.json + v33 subjects/*/syllabus_vocab.json)
+Extracted mechanically 2026-09-19. Source of truth = the syllabus PDFs the
+repo ships alongside these files (syllabi/). These lists are the pipeline's
+OWN ingested taxonomy - reuse them, re-verify against the PDFs at build time.
+================================================================================
+
+--------------------------------------------------------------------------------
+PART 1 — CAIE A-LEVEL — from 'the final product (3)'/topics/A-Level/*.json
+(topic name | syllabus section | level | allowed papers)
+--------------------------------------------------------------------------------
+
+### Accounting_9706 — 17 major topics
+  [1.1] AS  01_Types_of_Business_Entity
+  [1.2] AS  02_The_Accounting_System
+  [1.3] AS  03_Accounting_for_Non_Current_Assets
+  [1.4] AS  04_Reconciliation_and_Verification
+  [1.5] AS  05_Preparation_of_Financial_Statements_AS
+  [1.6] AS  06_Analysis_and_Communication_AS
+  [2.1] AS  07_Costs_and_Cost_Behaviour
+  [2.2] AS  08_Traditional_Costing_Methods
+  [3.1] A2  09_Preparation_of_Financial_Statements_A_Level
+  [3.2] A2  10_Regulatory_and_Ethical_Considerations
+  [3.3] A2  11_Business_Acquisition_and_Merger
+  [3.4] A2  12_Computerised_Accounting_Systems
+  [3.5] A2  13_Analysis_and_Communication_A_Level
+  [4.1] A2  14_Activity_Based_Costing
+  [4.2] A2  15_Standard_Costing
+  [4.3] A2  16_Budgeting_and_Budgetary_Control
+  [4.4] A2  17_Investment_Appraisal
+  (keyword-classifier entries present for 17 topics: primary/secondary/exclude_if/boost_if)
+
+### Biology_9700 — 19 major topics
+  [1] AS  01_Cell_Structure
+  [2] AS  02_Biological_Molecules
+  [3] AS  03_Enzymes
+  [4] AS  04_Cell_Membranes_and_Transport
+  [5] AS  05_The_Mitotic_Cell_Cycle
+  [6] AS  06_Nucleic_Acids_and_Protein_Synthesis
+  [7] AS  07_Transport_in_Plants
+  [8] AS  08_Transport_in_Mammals
+  [9] AS  09_Gas_Exchange
+  [10] AS  10_Infectious_Diseases
+  [11] AS  11_Immunity
+  [12] A2  12_Energy_and_Respiration
+  [13] A2  13_Photosynthesis
+  [14] A2  14_Homeostasis
+  [15] A2  15_Control_and_Coordination
+  [16] A2  16_Inheritance
+  [17] A2  17_Selection_and_Evolution
+  [18] A2  18_Classification_Biodiversity_and_Conservation
+  [19] A2  19_Genetic_Technology
+  (keyword-classifier entries present for 19 topics: primary/secondary/exclude_if/boost_if)
+
+### Business_9609 — 10 major topics
+  [1] AS  01_Business_and_its_Environment_AS
+  [2] AS  02_Human_Resource_Management_AS
+  [3] AS  03_Marketing_AS
+  [4] AS  04_Operations_Management_AS
+  [5] AS  05_Finance_and_Accounting_AS
+  [6] A2  06_Business_and_its_Environment_A2
+  [7] A2  07_Human_Resource_Management_A2
+  [8] A2  08_Marketing_A2
+  [9] A2  09_Operations_Management_A2
+  [10] A2  10_Finance_and_Accounting_A2
+  (keyword-classifier entries present for 10 topics: primary/secondary/exclude_if/boost_if)
+
+### Chemistry_9701 — 22 major topics
+  [1] AS  Atomic_structure
+  [2] AS  Atoms,_molecules_and_stoichiometry
+  [3] AS  Chemical_bonding
+  [4] AS  States_of_matter
+  [11] AS  Group_17
+  [12] AS  Nitrogen_and_sulfur
+  [13] AS  An_introduction_to_AS_Level_organic_chemistry
+  [17] AS  Carbonyl_compounds
+  [23] A2  Chemical_energetics
+  [24] A2  Electrochemistry
+  [25] A2  Equilibria
+  [26] A2  Reaction_kinetics
+  [27] A2  Group_2
+  [28] A2  Chemistry_of_transition_elements
+  [30] A2  Hydrocarbons
+  [31] A2  Halogen_compounds
+  [32] A2  Hydroxy_compounds
+  [33] A2  Carboxylic_acids_and_derivatives
+  [34] A2  Nitrogen_compounds
+  [35] A2  Polymerisation
+  [36] A2  Organic_synthesis
+  [37] A2  Analytical_techniques
+  (keyword-classifier entries present for 22 topics: primary/secondary/exclude_if/boost_if)
+
+### Computer_Science_9618 — 20 major topics
+  [1] AS  01_Information_Representation
+  [2] AS  02_Communication
+  [3] AS  03_Hardware
+  [4] AS  04_Processor_Fundamentals
+  [5] AS  05_System_Software
+  [6] AS  06_Security_Privacy_and_Data_Integrity
+  [7] AS  07_Ethics_and_Ownership
+  [8] AS  08_Databases
+  [9] AS  09_Algorithm_Design_and_Problem_Solving
+  [10] AS  10_Data_Types_and_Structures
+  [11] AS  11_Programming
+  [12] AS  12_Software_Development
+  [13] A2  13_Data_Representation
+  [14] A2  14_Communication_and_Internet_Technologies
+  [15] A2  15_Hardware_and_Virtual_Machines
+  [16] A2  16_System_Software
+  [17] A2  17_Security
+  [18] A2  18_Artificial_Intelligence
+  [19] A2  19_Computational_Thinking_and_Problem_Solving
+  [20] A2  20_Further_Programming
+  (keyword-classifier entries present for 20 topics: primary/secondary/exclude_if/boost_if)
+
+### Economics_9708 — 11 major topics
+  [1] AS  01_Basic_Economic_Ideas_and_Resource_Allocation
+  [2] AS  02_The_Price_System_and_the_Microeconomy
+  [3] AS  03_Government_Microeconomic_Intervention
+  [4] AS  04_The_Macroeconomy
+  [5] AS  05_Government_Macroeconomic_Intervention
+  [6] AS  06_International_Economic_Issues
+  [7] A2  07_The_Price_System_and_the_Microeconomy
+  [8] A2  08_Government_Microeconomic_Intervention
+  [9] A2  09_The_Macroeconomy
+  [10] A2  10_Government_Macroeconomic_Intervention
+  [11] A2  11_International_Economic_Issues
+  (keyword-classifier entries present for 11 topics: primary/secondary/exclude_if/boost_if)
+
+### Geography_9696 — 14 major topics
+  [1] AS  01_Hydrology_River_Processes_and_Hazards
+  [2] AS  02_Atmospheric_Processes_and_Global_Climate_Change
+  [3] AS  03_Earth_Processes_and_Mass_Movements
+  [4] AS  04_Population_and_Migration
+  [5] AS  05_Water_Resources_and_Management
+  [6] AS  06_Urban_Areas_and_Management
+  [7] A2  07_Tropical_Environments
+  [8] A2  08_Coastal_Environments
+  [9] A2  09_Hazardous_Environments
+  [10] A2  10_Arid_Environments
+  [11] A2  11_Climate_Change_Impacts_and_Governance
+  [12] A2  12_Environmental_Issues_and_Management
+  [13] A2  13_Trade_Aid_and_Tourism
+  [14] A2  14_Disease_and_Geography
+  (keyword-classifier entries present for 14 topics: primary/secondary/exclude_if/boost_if)
+
+### History_9489 — 21 major topics
+  [1] AS  01_France_1774_1814
+  [2] AS  02_Liberalism_and_Nationalism_in_Germany_1815_1871
+  [3] AS  03_Russia_from_Autocracy_to_Revolution_1881_1924
+  [4] AS  04_The_Civil_War_and_Reconstruction_1820_1877
+  [5] AS  05_The_Gilded_Age_and_the_Progressive_Era_1870_1920
+  [6] AS  06_The_Great_Crash_Depression_and_New_Deal_1920_1941
+  [7] AS  07_Imperialism_and_the_Emergence_of_World_Powers_1870_1918
+  [8] AS  08_International_Relations_1919_1929
+  [9] AS  09_International_History_1929_1939_Road_to_War
+  [10] A2  10_The_Origins_of_the_First_World_War
+  [11] A2  11_The_Holocaust
+  [12] A2  12_The_Origins_and_Development_of_the_Cold_War
+  [13] A2  13_Mussolinis_Italy_1919_1941
+  [14] A2  14_Stalins_Russia_1924_1941
+  [15] A2  15_Hitlers_Germany_1929_1941
+  [16] A2  16_Truman_Eisenhower_and_Post_War_USA_1945_1961
+  [17] A2  17_A_Time_of_Challenges_USA_1961_1974
+  [18] A2  18_The_USA_1974_1993
+  [19] A2  19_The_Soviet_Empire_in_Eastern_Europe_1953_1991
+  [20] A2  20_End_of_Minority_Rule_in_South_Africa_and_Zimbabwe_1948_1994
+  [21] A2  21_The_Route_to_Independence_Malaysia_and_Indonesia_1909_1967
+  (keyword-classifier entries present for 21 topics: primary/secondary/exclude_if/boost_if)
+
+### Physics_9702 — 25 major topics
+  [1] AS  01_Physical_Quantities_and_Units
+  [2] AS  02_Kinematics
+  [3] AS  03_Dynamics
+  [4] AS  04_Forces_Density_and_Pressure
+  [5] AS  05_Work_Energy_and_Power
+  [6] AS  06_Deformation_of_Solids
+  [7] AS  07_Waves
+  [8] AS  08_Superposition
+  [9] AS  09_Electricity
+  [10] AS  10_DC_Circuits
+  [11] AS  11_Particle_Physics
+  [12] A2  12_Motion_in_a_Circle
+  [13] A2  13_Gravitational_Fields
+  [14] A2  14_Temperature
+  [15] A2  15_Ideal_Gases
+  [16] A2  16_Thermodynamics
+  [17] A2  17_Oscillations
+  [18] A2  18_Electric_Fields
+  [19] A2  19_Capacitance
+  [20] A2  20_Magnetic_Fields
+  [21] A2  21_Alternating_Currents
+  [22] A2  22_Quantum_Physics
+  [23] A2  23_Nuclear_Physics
+  [24] A2  24_Medical_Physics
+  [25] A2  25_Astronomy_and_Cosmology
+  (keyword-classifier entries present for 25 topics: primary/secondary/exclude_if/boost_if)
+
+### Sociology_9699 — 12 major topics
+  [1] AS  01_Socialisation_and_the_Creation_of_Social_Identity
+  [2] AS  02_Methods_of_Research
+  [3] AS  03_Theories_of_the_Family_and_Social_Change
+  [4] AS  04_Family_Roles_and_Changing_Relationships
+  [5] A2  05_Education_and_Society
+  [6] A2  06_Education_and_Inequality
+  [7] A2  07_Globalisation_Key_Debates_Concepts_and_Perspectives
+  [8] A2  08_Globalisation_Contemporary_Issues
+  [9] A2  09_Ownership_and_Control_of_Media
+  [10] A2  10_Media_Representation_and_Effects
+  [11] A2  11_Religion_and_Social_Order
+  [12] A2  12_The_Influence_of_Religion
+  (keyword-classifier entries present for 12 topics: primary/secondary/exclude_if/boost_if)
+
+--------------------------------------------------------------------------------
+PART 2 — CAIE subject topic keys from v33 subjects/*/syllabus_vocab.json
+(these are the vocab-classifier topic sets; list of major topics per subject)
+--------------------------------------------------------------------------------
+
+### A-Level/Biology_9700 — 19 topics
+  - Cell_structure  (202 keyword entries)
+  - Biological_molecules  (249 keyword entries)
+  - Enzymes  (100 keyword entries)
+  - Cell_membranes_and_transport  (147 keyword entries)
+  - The_mitotic_cell_cycle  (103 keyword entries)
+  - Nucleic_acids_and_protein_synthesis  (174 keyword entries)
+  - Transport_in_plants  (133 keyword entries)
+  - Transport_in_mammals  (173 keyword entries)
+  - Gas_exchange  (72 keyword entries)
+  - Infectious_diseases  (100 keyword entries)
+  - Immunity  (110 keyword entries)
+  - Energy_and_respiration  (220 keyword entries)
+  - Photosynthesis  (182 keyword entries)
+  - Homeostasis  (264 keyword entries)
+  - Control_and_coordination  (134 keyword entries)
+  - Inheritance  (156 keyword entries)
+  - Selection_and_evolution  (66 keyword entries)
+  - Classification_biodiversity_and_conservation  (239 keyword entries)
+  - Genetic_technology  (393 keyword entries)
+
+### A-Level/Chemistry_9701 — 24 topics
+  - Atomic_structure  (119 keyword entries)
+  - Atoms_molecules_and_stoichiometry  (85 keyword entries)
+  - Chemical_bonding  (226 keyword entries)
+  - States_of_matter  (59 keyword entries)
+  - Chemical_energetics  (116 keyword entries)
+  - Electrochemistry  (96 keyword entries)
+  - Equilibria  (149 keyword entries)
+  - Reaction_kinetics  (92 keyword entries)
+  - The_Periodic_Table_chemical_periodicity  (51 keyword entries)
+  - Group_2  (42 keyword entries)
+  - Group_17  (62 keyword entries)
+  - Nitrogen_and_sulfur  (56 keyword entries)
+  - An_introduction_to_AS_Level_organic_chemistry  (221 keyword entries)
+  - Hydrocarbons  (175 keyword entries)
+  - Halogen_compounds  (61 keyword entries)
+  - Hydroxy_compounds  (117 keyword entries)
+  - Carbonyl_compounds  (42 keyword entries)
+  - Carboxylic_acids_and_derivatives  (92 keyword entries)
+  - Nitrogen_compounds  (90 keyword entries)
+  - Polymerisation  (65 keyword entries)
+  - Organic_synthesis  (28 keyword entries)
+  - Analytical_techniques  (319 keyword entries)
+  - Chemistry_of_transition_elements  (166 keyword entries)
+  - An_introduction_to_A_Level_organic_chemistry  (162 keyword entries)
+
+### A-Level/Further_Mathematics_9231 — 22 topics
+  - Roots_of_polynomial_equations  (26 keyword entries)
+  - Rational_functions_and_graphs  (34 keyword entries)
+  - Summation_of_series  (25 keyword entries)
+  - Matrices  (156 keyword entries)
+  - Polar_coordinates  (40 keyword entries)
+  - Vectors  (51 keyword entries)
+  - Proof_by_induction  (30 keyword entries)
+  - Hyperbolic_functions  (39 keyword entries)
+  - Differentiation  (38 keyword entries)
+  - Integration  (86 keyword entries)
+  - Complex_numbers  (45 keyword entries)
+  - Differential_equations  (61 keyword entries)
+  - Motion_of_a_projectile  (39 keyword entries)
+  - Equilibrium_of_a_rigid_body  (62 keyword entries)
+  - Circular_motion  (39 keyword entries)
+  - Hooke's_law  (46 keyword entries)
+  - Linear_motion_under_a_variable_force  (14 keyword entries)
+  - Momentum  (57 keyword entries)
+  - Continuous_random_variables  (30 keyword entries)
+  - Inference_using_normal_and_t_distributions  (88 keyword entries)
+  - Non_parametric_tests  (68 keyword entries)
+  - Probability_generating_functions  (434 keyword entries)
+
+### A-Level/Information_Technology_9626 — 7 topics
+  - Flowcharts  (1013 keyword entries)
+  - Video_editing  (130 keyword entries)
+  - Audio_editing  (125 keyword entries)
+  - Digital_currencies  (359 keyword entries)
+  - Networks  (652 keyword entries)
+  - Project_management_software  (228 keyword entries)
+  - Documentation  (1095 keyword entries)
+
+### A-Level/Mathematics_9709 — 29 topics
+  - Quadratics  (32 keyword entries)
+  - Functions  (37 keyword entries)
+  - Coordinate_geometry  (53 keyword entries)
+  - Circular_measure  (15 keyword entries)
+  - Trigonometry  (84 keyword entries)
+  - Series  (26 keyword entries)
+  - Differentiation  (90 keyword entries)
+  - Integration  (89 keyword entries)
+  - Algebra  (52 keyword entries)
+  - Logarithmic_and_exponential_functions  (28 keyword entries)
+  - Numerical_solution_of_equations  (45 keyword entries)
+  - Vectors  (65 keyword entries)
+  - Differential_equations  (25 keyword entries)
+  - Complex_numbers  (147 keyword entries)
+  - Forces_and_equilibrium  (66 keyword entries)
+  - Kinematics_of_motion_in_a_straight_line  (44 keyword entries)
+  - Momentum  (18 keyword entries)
+  - Newton's_laws_of_motion  (75 keyword entries)
+  - Energy_work_and_power  (76 keyword entries)
+  - Representation_of_data  (59 keyword entries)
+  - Permutations_and_combinations  (36 keyword entries)
+  - Probability  (43 keyword entries)
+  - Discrete_random_variables  (27 keyword entries)
+  - The_normal_distribution  (43 keyword entries)
+  - The_Poisson_distribution  (16 keyword entries)
+  - Linear_combinations_of_random_variables  (19 keyword entries)
+  - Continuous_random_variables  (29 keyword entries)
+  - Sampling_and_estimation  (62 keyword entries)
+  - Hypothesis_tests  (488 keyword entries)
+
+### A-Level/Physics_9702 — 25 topics
+  - Physical_quantities_and_units  (98 keyword entries)
+  - Kinematics  (33 keyword entries)
+  - Dynamics  (81 keyword entries)
+  - Forces_density_and_pressure  (38 keyword entries)
+  - Work_energy_and_power  (19 keyword entries)
+  - Deformation_of_solids  (43 keyword entries)
+  - Waves  (100 keyword entries)
+  - Superposition  (55 keyword entries)
+  - Electricity  (48 keyword entries)
+  - D_C_circuits  (72 keyword entries)
+  - Particle_physics  (102 keyword entries)
+  - Motion_in_a_circle  (25 keyword entries)
+  - Gravitational_fields  (66 keyword entries)
+  - Temperature  (47 keyword entries)
+  - Ideal_gases  (59 keyword entries)
+  - Thermodynamics  (21 keyword entries)
+  - Oscillations  (64 keyword entries)
+  - Electric_fields  (56 keyword entries)
+  - Capacitance  (34 keyword entries)
+  - Magnetic_fields  (111 keyword entries)
+  - Alternating_currents  (56 keyword entries)
+  - Quantum_physics  (72 keyword entries)
+  - Nuclear_physics  (43 keyword entries)
+  - Medical_physics  (151 keyword entries)
+  - Astronomy_and_cosmology  (253 keyword entries)
+
+### IGCSE/Biology_0610 — 21 topics
+  - Characteristics_and_classification_of_living_organisms  (143 keyword entries)
+  - Organisation_of_the_organism  (112 keyword entries)
+  - Movement_into_and_out_of_cells  (90 keyword entries)
+  - Biological_molecules  (58 keyword entries)
+  - Enzymes  (40 keyword entries)
+  - Plant_nutrition  (118 keyword entries)
+  - Human_nutrition  (219 keyword entries)
+  - Transport_in_plants  (132 keyword entries)
+  - Transport_in_animals  (176 keyword entries)
+  - Diseases_and_immunity  (151 keyword entries)
+  - Gas_exchange_in_humans  (74 keyword entries)
+  - Respiration  (73 keyword entries)
+  - Excretion_in_humans  (48 keyword entries)
+  - Coordination_and_response  (329 keyword entries)
+  - Drugs  (26 keyword entries)
+  - Reproduction  (232 keyword entries)
+  - Inheritance  (231 keyword entries)
+  - Variation_and_selection  (124 keyword entries)
+  - Organisms_and_their_environment  (191 keyword entries)
+  - Human_influences_on_ecosystems  (246 keyword entries)
+  - Biotechnology_and_genetic_modification  (840 keyword entries)
+
+### IGCSE/Chemistry_0620 — 12 topics
+  - States_of_matter  (38 keyword entries)
+  - Atoms_elements_and_compounds  (156 keyword entries)
+  - Stoichiometry  (89 keyword entries)
+  - Electrochemistry  (96 keyword entries)
+  - Chemical_energetics  (40 keyword entries)
+  - Chemical_reactions  (142 keyword entries)
+  - Acids_bases_and_salts  (134 keyword entries)
+  - The_Periodic_Table  (109 keyword entries)
+  - Metals  (202 keyword entries)
+  - Chemistry_of_the_environment  (259 keyword entries)
+  - Organic_chemistry  (393 keyword entries)
+  - Experimental_techniques_and_chemical_analysis  (1172 keyword entries)
+
+### IGCSE/Computer_Science_0478 — 20 topics
+  - Pseudocode  (1 keyword entries)
+  - Number_systems  (115 keyword entries)
+  - Text_sound_and_images  (68 keyword entries)
+  - Data_storage_and_compression  (100 keyword entries)
+  - Types_and_methods_of_data_transmission  (66 keyword entries)
+  - Methods_of_error_detection  (57 keyword entries)
+  - Encryption  (17 keyword entries)
+  - Computer_architecture  (115 keyword entries)
+  - Input_and_output_devices  (96 keyword entries)
+  - Data_storage  (92 keyword entries)
+  - Network_hardware  (244 keyword entries)
+  - The_internet_and_the_world_wide_web  (121 keyword entries)
+  - Digital_currency  (27 keyword entries)
+  - Cyber_security  (109 keyword entries)
+  - Automated_systems  (22 keyword entries)
+  - Robotics  (44 keyword entries)
+  - Artificial_intelligence  (261 keyword entries)
+  - Programming_concepts  (104 keyword entries)
+  - Arrays  (16 keyword entries)
+  - File_handling  (215 keyword entries)
+
+### IGCSE/History_0470 — 21 topics
+  - Were_the_revolutions_of_1848_important  (26 keyword entries)
+  - How_was_Italy_unified  (49 keyword entries)
+  - How_was_Germany_unified  (174 keyword entries)
+  - What_caused_the_First_World_War  (69 keyword entries)
+  - Was_the_Treaty_of_Versailles_fair  (29 keyword entries)
+  - To_what_extent_was_the_League_of_Nations_a_success  (102 keyword entries)
+  - Who_was_to_blame_for_the_Cold_War  (115 keyword entries)
+  - How_effectively_did_the_United_States_contain_the_spread_of_communism  (8 keyword entries)
+  - Why_was_there_stalemate_on_the_Western_Front  (40 keyword entries)
+  - How_important_were_other_fronts  (13 keyword entries)
+  - Why_did_Germany_ask_for_an_armistice_in_1918  (131 keyword entries)
+  - Was_the_Weimar_Republic_doomed_from_the_start  (16 keyword entries)
+  - Why_was_Hitler_able_to_dominate_Germany_by_1934  (152 keyword entries)
+  - Why_did_the_Tsarist_regime_collapse_in_1917  (36 keyword entries)
+  - How_did_Stalin_gain_and_hold_on_to_power  (17 keyword entries)
+  - What_was_the_impact_of_Stalins_economic_policies  (89 keyword entries)
+  - How_far_did_the_US_economy_boom_in_the_1920s  (18 keyword entries)
+  - How_far_did_US_society_change_in_the_1920s  (11 keyword entries)
+  - What_were_the_causes_and_consequences_of_the_Wall_Street_Crash  (15 keyword entries)
+  - How_successful_was_the_New_Deal  (132 keyword entries)
+  - How_did_the_Second_World_War_in_Europe_develop  (1029 keyword entries)
+
+### IGCSE/ICT_0417 — 29 topics
+  - Audience  (35 keyword entries)
+  - Communication  (170 keyword entries)
+  - File_management  (105 keyword entries)
+  - Images  (45 keyword entries)
+  - Layout  (143 keyword entries)
+  - Styles  (55 keyword entries)
+  - Proofing  (101 keyword entries)
+  - Graphs_and_charts  (65 keyword entries)
+  - Document_production  (98 keyword entries)
+  - Databases  (191 keyword entries)
+  - Presentations  (153 keyword entries)
+  - Spreadsheets  (173 keyword entries)
+  - Website_authoring  (465 keyword entries)
+  - Emerging_technologies  (20 keyword entries)
+  - Input_devices_and_their_uses  (77 keyword entries)
+  - Output_devices_and_their_uses  (235 keyword entries)
+  - Microprocessor_controlled_devices  (67 keyword entries)
+  - Modelling_applications  (30 keyword entries)
+  - Computer_controlled_systems  (15 keyword entries)
+  - School_management_systems  (110 keyword entries)
+  - Expert_systems  (185 keyword entries)
+  - Analysis  (22 keyword entries)
+  - Design  (46 keyword entries)
+  - Development_and_testing  (44 keyword entries)
+  - Implementation  (16 keyword entries)
+  - Documentation  (71 keyword entries)
+  - Evaluation  (17 keyword entries)
+  - Physical_safety  (43 keyword entries)
+  - Esafety  (200 keyword entries)
+
+### IGCSE/Mathematics_0580 — 9 topics
+  - Number  (378 keyword entries)
+  - Algebra_and_graphs  (383 keyword entries)
+  - Coordinate_geometry  (54 keyword entries)
+  - Geometry  (337 keyword entries)
+  - Mensuration  (107 keyword entries)
+  - Trigonometry  (83 keyword entries)
+  - Transformations_and_vectors  (81 keyword entries)
+  - Probability  (78 keyword entries)
+  - Statistics  (605 keyword entries)
+
+### IGCSE/Physics_0625 — 6 topics
+  - Motion_forces_and_energy  (418 keyword entries)
+  - Thermal_physics  (262 keyword entries)
+  - Waves  (476 keyword entries)
+  - Electricity_and_magnetism  (528 keyword entries)
+  - Nuclear_physics  (259 keyword entries)
+  - Space_physics  (1319 keyword entries)
+
+
+================================================================================
+PART 3 — SAT / PSAT (digital) — verified TODAY 2026-09-19 against College
+Board documents (NOT from memory). The official PDFs are the authority:
+  https://satsuite.collegeboard.org/media/pdf/assessment-framework-for-digital-sat-suite.pdf
+  https://satsuite.collegeboard.org/media/pdf/skills-insight-digital-sat-suite.pdf
+  https://research.collegeboard.org/media/pdf/Digital%20SAT%20Suite%20of%20Assessments%20Technical%20Manual-FINAL.pdf
+
+READING & WRITING — 4 content domains (each item belongs to exactly ONE):
+  1. Information and Ideas
+       Central Ideas and Details · Command of Evidence (Textual) ·
+       Command of Evidence (Quantitative) · Inferences
+  2. Craft and Structure
+       Words in Context · Text Structure and Purpose · Cross-Text Connections
+  3. Expression of Ideas
+       Rhetorical Synthesis · Transitions
+  4. Standard English Conventions
+       Boundaries · Form, Structure, and Sense
+
+MATH — 4 content domains:
+  1. Algebra            (linear equations, linear functions, linear systems,
+                         inequalities)
+  2. Advanced Math      (quadratics, exponentials, nonlinear equations &
+                         systems, polynomial/rational/absolute value)
+  3. Problem-Solving and Data Analysis  (ratios, rates, percentages,
+                         probability, inference from data samples)
+  4. Geometry and Trigonometry          (lines, angles, triangles, circles,
+                         trig) — PSAT 8/9: Geometry only, NO trigonometry
+
+Agent task: re-extract the skill names verbatim from the framework tables
+(A). The second-level cluster names above are recorded here to CONFIRM, not
+to substitute. Old paper-based SAT (2016-2023): prior content structure on
+ESPLANADE — separate era taxonomy or Part 6.21 deferral.
+
+================================================================================
+PART 4 — WHAT THIS FILE CANNOT LEGITIMATELY CONTAIN (and where to get it)
+================================================================================
+Your repo is Cambridge-first: it holds NO ingested taxonomy for AQA, Edexcel,
+IB, or the other Cambridge subjects beyond those listed. Those lists must
+come from the official documents — typing them from any memory (yours, mine,
+or a model's) is exactly the SOURCE_NOT_FOUND shortcut Part 11.13 forbids.
+Fetch queue (one official PDF per row; taxonomy_builder ingests each):
+  AQA 8462 / 8464 / 7405 spec PDFs ......... aqa.org.uk -> subject -> spec (incl. archived = era versions)
+  Edexcel 9CH0/1CH0/9CH0-IAL specs ......... edexcelonline.com / pearsonschools spec PDFs (Issue number = version)
+  IB subject briefs (per subject) ......... ibo.org free briefs; guides are paid -> SOURCE_NOT_ACCESSIBLE if truncated
+  CAIE subjects missing from repo ......... syllabus PDFs, per qualification, ALL active + needed past editions
+  CAIE 9701 old editions (your 2004/2008 papers) .. CAIE archive — Part 6.21 Step 1 before declaring unavailable
+Verification loop for every row above: download -> hash -> docs/research/ ->
+taxonomy_builder -> taxonomy.json -> THEN classification may touch the subject.
+
+================================================================================
+--------------------------------------------------------------------------------
+PART 1b — CAIE subject configs from workspace-019fe911 (latest) — 23 subjects
+(These are the pipeline's OWN generated configs; several were authored by an
+earlier AI agent, so each carries its official_source URL. Status: CANDIDATE
+TAXONOMY — must be diffed against that syllabus PDF before use. Topics that
+match the PDF get SUPPORTED; invented names get replaced verbatim by the PDF's.
+--------------------------------------------------------------------------------
+
+### subjects/Biology_9700   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/XXXX-9700-syllabus.pdf
+  major_topics (8): Cell_Structure, Biological_Molecules, Enzymes, Cell_Membranes, Genetics, Evolution, Ecology, Physiology
+  detailed_topics (18):
+      - Cells
+      - Microscopy
+      - Biological_Molecules_Carbs
+      - Proteins
+      - Lipids
+      - Enzyme_Action
+      - Membrane_Transport
+      - Cell_Division
+      - Inheritance
+      - DNA_and_Protein_Synthesis
+      - Gene_Technology
+      - Natural_Selection
+      - Ecological_Niche
+      - Energy_Flow
+      - Gas_Exchange
+      - Circulation
+      - Homeostasis
+      - Nervous_System
+
+### subjects/Business_9609   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/.../9609-syllabus.pdf
+  major_topics (6): Business_and_its_environment, People_in_organisations, Marketing, Operations_and_project_management, Finance_and_accounting, Strategic_management
+  detailed_topics (35):
+      - Enterprise
+      - Business_structure
+      - Size_of_business
+      - Business_objectives
+      - Stakeholders_in_a_business
+      - Management_and_leadership
+      - Motivation
+      - Human_resource_management
+      - Organisational_structure
+      - Business_communication
+      - The_nature_of_marketing
+      - Market_research
+      - The_marketing_mix
+      - Marketing_planning
+      - Globalisation_and_international_marketing
+      - The_nature_of_operations
+      - Operations_planning
+      - Inventory_management
+      - Capacity_utilisation_and_outsourcing
+      - Lean_production_and_quality_management
+      - Project_management
+      - The_need_for_business_finance
+      - Sources_of_finance
+      - Costs
+      - Accounting_fundamentals
+      - Forecasting_cash_flows_and_managing_working_capital
+      - Budgets
+      - Contents_of_published_accounts
+      - Analysis_of_published_accounts
+      - Investment_appraisal
+      - External_influences_on_business_activity
+      - Business_strategy
+      - Strategic_analysis
+      - Strategic_choice
+      - Strategic_implementation
+
+### subjects/Chemistry_9701   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/XXXX-9701-syllabus.pdf and foldernamestxt/chemistry.txt
+  major_topics (24): An_introduction_to_AS_Level_organic_chemistry, Analytical_techniques, Atomic_structure, Atoms,_molecules_and_stoichiometry, Carbonyl_compounds, Carboxylic_acids_and_derivatives, Chemical_bonding, Chemical_energetics, Electrochemistry, Equilibria, Group_2, Group_17, Halogen_compounds, Hydrocarbons, Hydroxy_compounds, Nitrogen_and_sulfur, Nitrogen_compounds, Organic_synthesis, Polymerisation, Reaction_kinetics, States_of_matter, The_Periodic_Table;_chemical_periodicity, An_introduction_to_A_Level_organic_chemistry, Chemistry_of_transition_elements
+  detailed_topics (24):
+      - An_introduction_to_AS_Level_organic_chemistry
+      - Analytical_techniques
+      - Atomic_structure
+      - Atoms,_molecules_and_stoichiometry
+      - Carbonyl_compounds
+      - Carboxylic_acids_and_derivatives
+      - Chemical_bonding
+      - Chemical_energetics
+      - Electrochemistry
+      - Equilibria
+      - Group_2
+      - Group_17
+      - Halogen_compounds
+      - Hydrocarbons
+      - Hydroxy_compounds
+      - Nitrogen_and_sulfur
+      - Nitrogen_compounds
+      - Organic_synthesis
+      - Polymerisation
+      - Reaction_kinetics
+      - States_of_matter
+      - The_Periodic_Table;_chemical_periodicity
+      - An_introduction_to_A_Level_organic_chemistry
+      - Chemistry_of_transition_elements
+
+### subjects/Computer_Science_9618   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/697372-2026-syllabus.pdf
+  major_topics (20): Information_representation, Communication, Hardware, Processor_Fundamentals, System_Software, Security_privacy_and_data_integrity, Ethics_and_Ownership, Databases, Algorithm_Design_and_Problem_solving, Data_Types_and_Structures, Programming, Software_Development, Data_Representation_Advanced, Communication_and_internet_technologies_Advanced, Hardware_and_Virtual_Machines_Advanced, System_Software_Advanced, Security_Advanced, Artificial_Intelligence, Computational_thinking_and_Problem_solving_Advanced, Further_Programming
+  detailed_topics (51):
+      - Data_representation_binary
+      - Multimedia_graphics_and_sound
+      - Compression
+      - Networks_including_the_internet
+      - Network_protocols
+      - Internet_structure
+      - Computers_and_their_components
+      - Logic_Gates_and_Logic_Circuits
+      - Central_Processing_Unit_CPU_Architecture
+      - Assembly_Language
+      - Bit_manipulation
+      - Operating_Systems
+      - Language_Translators
+      - Data_Security
+      - Data_Integrity
+      - Ethics_and_Ownership
+      - Copyright_and_licensing
+      - Database_Concepts
+      - Database_Management_Systems_DBMS
+      - Data_Definition_Language_DDL_and_Data_Manipulation_Language_DML
+      - Computational_Thinking_Skills
+      - Algorithms
+      - Flowcharts_and_pseudocode
+      - Data_Types_and_Records
+      - Arrays
+      - Files
+      - Introduction_to_Abstract_Data_Types_ADT
+      - Programming_Basics
+      - Constructs
+      - Structured_Programming
+      - Program_Development_Life_cycle
+      - Program_Design
+      - Program_Testing_and_Maintenance
+      - Userdefined_data_types
+      - File_organisation_and_access
+      - Floatingpoint_numbers_representation_and_manipulation
+      - Protocols
+      - Circuit_switching_packet_switching
+      - Bit_streaming
+      - Processors_Parallel_Processing_and_Virtual_Machines
+      - Boolean_Algebra_and_Logic_Circuits
+      - Purposes_of_an_Operating_System_OS
+      - Translation_Software
+      - Encryption_Encryption_Protocols_and_Digital_certificates
+      - Artificial_Intelligence
+      - Expert_systems_and_machine_learning
+      - Algorithms_Advanced
+      - Recursion
+      - Programming_Paradigms
+      - File_Processing_and_Exception_Handling
+      - Object_Oriented_Programming_OOP
+
+### subjects/Economics_9708   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/697423-2026-2028-syllabus.pdf
+  major_topics (11): Basic_economic_ideas_and_resource_allocation, The_price_system_and_the_microeconomy_AS, Government_microeconomic_intervention_AS, The_macroeconomy_AS, Government_macroeconomic_intervention_AS, International_economic_issues_AS, The_price_system_and_the_microeconomy_A_Level, Government_microeconomic_intervention_A_Level, The_macroeconomy_A_Level, Government_macroeconomic_intervention_A_Level, International_economic_issues_A_Level
+  detailed_topics (53):
+      - Scarcity_choice_and_opportunity_cost
+      - Economic_methodology
+      - Factors_of_production
+      - Resource_allocation_in_different_economic_systems
+      - Production_possibility_curves
+      - Classification_of_goods_and_services
+      - Demand_and_supply_curves
+      - Price_elasticity_income_elasticity_and_cross_elasticity_of_demand
+      - Price_elasticity_of_supply
+      - The_interaction_of_demand_and_supply
+      - Consumer_and_producer_surplus
+      - Reasons_for_government_intervention_in_markets
+      - Methods_and_effects_of_government_intervention_in_markets
+      - Addressing_income_and_wealth_inequality
+      - National_income_statistics
+      - Introduction_to_the_circular_flow_of_income
+      - Aggregate_Demand_and_Aggregate_Supply_analysis
+      - Economic_growth
+      - Unemployment
+      - Price_stability
+      - Government_macroeconomic_policy_objectives
+      - Fiscal_policy
+      - Monetary_policy
+      - Supplyside_policy
+      - The_reasons_for_international_trade
+      - Protectionism
+      - Current_account_of_the_balance_of_payments
+      - Exchange_rates
+      - Policies_to_correct_imbalances_in_the_current_account
+      - Utility
+      - Indifference_curves_and_budget_lines
+      - Efficiency_and_market_failure
+      - Private_costs_and_benefits_externalities_and_social_costs_and_benefits
+      - Types_of_cost_revenue_and_profit_shortrun_and_longrun_production
+      - Different_market_structures
+      - Growth_and_survival_of_firms
+      - Differing_objectives_and_policies_of_firms
+      - Government_policies_to_achieve_efficient_resource_allocation_and_correct_market_failure
+      - Equity_and_redistribution_of_income_and_wealth
+      - Labour_market_forces_and_government_intervention
+      - The_circular_flow_of_income
+      - Economic_growth_and_sustainability
+      - Employment_unemployment
+      - Money_and_banking
+      - Government_macroeconomic_policy_objectives_1
+      - Links_between_macroeconomic_problems_and_their_interrelatedness
+      - Effectiveness_of_policy_options_to_meet_all_macroeconomic_objectives
+      - Policies_to_correct_disequilibrium_in_the_balance_of_payments
+      - Exchange_rates_1
+      - Economic_development
+      - Characteristics_of_countries_at_different_levels_of_development
+      - Relationship_between_countries_at_different_levels_of_development
+      - Globalisation
+
+### subjects/English_Literature_9695   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/...9695-syllabus.pdf
+  major_topics (6): Poetry, Prose, Drama, Unseen_texts, Literary_techniques_A_Level, Themes_and_contexts_A_Level
+  detailed_topics (24):
+      - Poetry_analysis
+      - Poetic_techniques
+      - Poets_and_context
+      - Poetry_comparison
+      - Prose_analysis
+      - Novel_and_short_story
+      - Narrative_techniques
+      - Characterisation_prose_A_Level
+      - Dramatic_techniques
+      - Shakespeare
+      - Modern_drama
+      - Staging_and_performance
+      - Unseen_poetry_A_Level
+      - Unseen_prose_A_Level
+      - Critical_appreciation
+      - Close_reading_A_Level
+      - Language_and_style
+      - Structure_and_form_A_Level
+      - Imagery_and_symbolism
+      - Tone_and_voice
+      - Themes
+      - Contexts_historical_and_cultural
+      - Interpretations
+      - Comparison_A_Level
+
+### subjects/Further_Mathematics_9231   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/697357-2026-2027-syllabus.pdf
+  major_topics (4): P1_Further_Pure_Mathematics_1, P2_Further_Pure_Mathematics_2, P3_Further_Mechanics, P4_Further_Probability_and_Statistics
+  detailed_topics (4):
+      - P1_Further_Pure_Mathematics_1
+      - P2_Further_Pure_Mathematics_2
+      - P3_Further_Mechanics
+      - P4_Further_Probability_and_Statistics
+
+### subjects/Geography_9696   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/664556-2025-2026-syllabus.pdf
+  major_topics (14): Core_Physical_Hydrology_and_fluvial_geomorphology, Core_Physical_Atmosphere_and_weather, Core_Physical_Rocks_and_weathering, Core_Human_Population, Core_Human_Migration, Core_Human_Settlement_dynamics, Advanced_Physical_Tropical_environments, Advanced_Physical_Coastal_environments, Advanced_Physical_Hazardous_environments, Advanced_Physical_Hot_arid_semiarid, Advanced_Human_Production_location_and_change, Advanced_Human_Environmental_management, Advanced_Human_Global_interdependence, Advanced_Human_Economic_transition
+  detailed_topics (45):
+      - Drainage_basin_system
+      - Channel_processes
+      - Channel_landforms
+      - Human_impact_on_hydrology
+      - Atmospheric_processes
+      - Global_energy_budget
+      - Weather_processes
+      - Human_impact_on_climate
+      - Plate_tectonics
+      - Weathering
+      - Slope_processes
+      - Human_impact_on_rocks
+      - Natural_increase
+      - Demographic_transition
+      - Population_resource_relationships
+      - Management_of_natural_increase
+      - Migration_definitions_and_types
+      - Causes_of_migration
+      - Consequences_of_migration
+      - Settlement_patterns
+      - Urban_trends_and_issues
+      - Rural_settlement
+      - Tropical_climates
+      - Tropical_ecosystems
+      - Management_of_tropical_environments
+      - Coastal_processes
+      - Coastal_landforms
+      - Coral_reefs_and_mangroves
+      - Sustainable_management_of_coasts
+      - Earthquakes_and_volcanoes
+      - Mass_movements
+      - Hazard_management
+      - Arid_environments_climate
+      - Landforms_in_arid
+      - Management_of_arid
+      - Agricultural_systems
+      - Management_of_agricultural_change
+      - Manufacturing_and_industry
+      - Globalisation_of_industry
+      - Energy_and_environment
+      - Environmental_degradation
+      - Trade_and_global_interdependence
+      - Debt_and_aid
+      - National_development
+      - Globalisation_of_economic_activity
+
+### subjects/History_9489   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/.../9489-syllabus-2026.pdf
+  major_topics (18): Modern_Europe_17501921_France_17741814, Modern_Europe_17501921_Industrial_Revolution_Britain_17501850, Modern_Europe_17501921_Liberalism_and_nationalism_Germany_181571, Modern_Europe_17501921_Russian_Revolution_18941921, History_USA_182041_Origins_Civil_War, History_USA_182041_Civil_War_and_Reconstruction, History_USA_182041_Gilded_Age_and_Progressive_Era, History_USA_182041_Great_Crash_Depression_New_Deal, International_history_18701945_Empire_and_world_powers, International_history_18701945_League_of_Nations_1920s, International_history_18701945_League_1930s, International_history_18701945_China_and_Japan_191245, Paper_3_Origins_of_First_World_War, Paper_3_Holocaust, Paper_3_Origins_and_development_Cold_War, Depth_Study_European_interwar, Depth_Study_USA_194492, Depth_Study_International_194592
+  detailed_topics (53):
+      - The_Ancien_Regime_and_causes_of_1789_Revolution
+      - The_1789_Revolution_and_its_outcomes
+      - Napoleons_domestic_aims_and_achievements
+      - Napoleonic_Empire_and_Europe
+      - Causes_of_Industrial_Revolution
+      - Growth_of_industrialisation
+      - Social_consequences
+      - Political_consequences
+      - German_nationalism_181548
+      - Unification_of_Germany
+      - Bismarck_and_Germany
+      - Tsarist_Russia_problems
+      - Topic_1905_Revolution
+      - Topic_1917_Revolutions
+      - Bolshevik_consolidation
+      - Sectionalism_and_slavery
+      - Political_crises_1850s
+      - Election_of_1860_and_secession
+      - Civil_War_causes_and_course
+      - Reconstruction
+      - Industrialisation_and_urbanisation
+      - Progressive_movement
+      - Great_Crash_causes
+      - Great_Depression_consequences
+      - New_Deal_policies
+      - Imperialism_and_emergence_of_world_powers
+      - League_formation_and_successes
+      - League_failures_1920s
+      - League_failure_in_1930s
+      - International_relations_1930s
+      - China_warlord_era
+      - Japan_expansion
+      - SinoJapanese_relations
+      - Causes_of_First_World_War_short_term
+      - Long_term_causes
+      - Historiography_Fischer_thesis
+      - Persecution_and_segregation
+      - Implementation_of_Holocaust
+      - Responses_and_historiography
+      - Origins_Cold_War
+      - Cold_War_developments
+      - End_of_Cold_War
+      - Mussolinis_Italy_191941
+      - Stalins_Russia_192441
+      - Hitlers_Germany_192941
+      - Britain_191939
+      - Late_1940s_and_1950s_prosperity
+      - Topic_1960s_and_1970s_society
+      - Topic_1980s_and_early_1990s
+      - Foreign_policy_194492
+      - US_Soviet_relations_Cold_War
+      - Decolonisation
+      - International_organisations
+
+### subjects/Information_Technology_9626   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/662482-2025-2027-syllabus.pdf
+  major_topics (21): Data_processing_and_information, Hardware_and_software, Monitoring_and_control, Algorithms_and_flowcharts, eSecurity, The_digital_divide, Expert_systems, Spreadsheets, Modelling, Database_and_file_concepts, Video_and_audio_editing, IT_in_society, New_and_emerging_technologies, Communications_technology, Project_management, System_life_cycle, Data_analysis_and_visualisation, Mail_merge, Graphics_creation, Animation, Programming_for_the_web
+  detailed_topics (50):
+      - Data_information_knowledge
+      - Data_processing
+      - Quality_of_information
+      - Hardware_components
+      - System_software
+      - Application_software
+      - Monitoring_systems
+      - Control_systems
+      - Sensors_and_actuators
+      - Algorithm_design
+      - Flowcharts
+      - Pseudocode
+      - Esecurity_threats
+      - Esecurity_solutions
+      - Digital_divide_causes
+      - Digital_divide_impacts
+      - Bridging_divide
+      - Expert_systems_characteristics
+      - Expert_systems_components
+      - Spreadsheet_concepts
+      - Spreadsheet_modelling
+      - Spreadsheet_functions
+      - Modelling_concepts
+      - Simulation
+      - Database_concepts
+      - File_organisation
+      - Video_editing
+      - Audio_editing
+      - Digital_currencies
+      - IT_and_society_monitoring
+      - Technology_enhanced_learning
+      - Artificial_intelligence
+      - Augmented_reality_virtual_reality
+      - Robotics
+      - Blockchain
+      - IoT
+      - Networks
+      - Protocols
+      - Internet_technologies
+      - Project_management_techniques
+      - Project_management_software
+      - System_life_cycle_phases
+      - Documentation
+      - Data_analysis
+      - Data_visualisation
+      - Mail_merge_concepts
+      - Graphics_creation_tools
+      - Animation_techniques
+      - Web_programming
+      - Consumer_statistics
+
+### subjects/Mathematics_9709   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/744634-2028-2030-syllabus.pdf
+  major_topics (6): P1_Pure_Mathematics_1, P2_Pure_Mathematics_2, P3_Pure_Mathematics_3, P4_Mechanics, P5_Probability_and_Statistics_1, P6_Probability_and_Statistics_2
+  detailed_topics (6):
+      - P1_Pure_Mathematics_1
+      - P2_Pure_Mathematics_2
+      - P3_Pure_Mathematics_3
+      - P4_Mechanics
+      - P5_Probability_and_Statistics_1
+      - P6_Probability_and_Statistics_2
+
+### subjects/Physics_9702   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/596580-2025-2027-syllabus.pdf
+  major_topics (7): Mechanics, Waves, Electricity, Thermal_Physics, Fields, Nuclear_Physics, Modern_Physics
+  detailed_topics (21):
+      - Kinematics
+      - Dynamics
+      - Forces_and_Momentum
+      - Work_Energy_Power
+      - Circular_Motion
+      - Gravitational_Fields
+      - Oscillations
+      - Waves_Behaviour
+      - Superposition
+      - Current_and_Resistance
+      - DC_Circuits
+      - Electric_Fields
+      - Magnetic_Fields
+      - Electromagnetic_Induction
+      - Alternating_Currents
+      - Thermal_Properties
+      - Ideal_Gases
+      - First_Law_Thermodynamics
+      - Nuclear_Decay
+      - Quantum_Physics
+      - Particle_Physics
+
+### subjects/Biology_0610   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/XXXX-0610-syllabus.pdf
+  major_topics (6): Cell_Biology_IGCSE, Biological_Molecules, Plant_Physiology_IGCSE, Animal_Physiology_IGCSE, Genetics_IGCSE, Ecology_IGCSE
+  detailed_topics (19):
+      - Characteristics_of_living
+      - Cell_structure_IGCSE
+      - Cell_division_IGCSE
+      - Movement_in_cells
+      - Enzymes_0610
+      - Nutrients_IGCSE
+      - Photosynthesis_IGCSE
+      - Respiration_IGCSE
+      - Transport_in_plants_IGCSE
+      - Transport_in_animals_IGCSE
+      - Gas_exchange_IGCSE
+      - Excretion_IGCSE
+      - Homeostasis_IGCSE
+      - Coordination_IGCSE
+      - Inheritance_IGCSE
+      - Variation_Selection
+      - Biotechnology_IGCSE
+      - Food_chains
+      - Carbon_cycle_IGCSE
+
+### subjects/Business_Studies_0450   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/697146-2026-syllabus.pdf
+  major_topics (6): Understanding_business_activity, People_in_business, Marketing, Operations_management, Financial_information_and_decisions, External_influences_on_business_activity
+  detailed_topics (25):
+      - Business_activity
+      - Classification_of_businesses
+      - Enterprise_business_growth_and_size
+      - Types_of_business_organisation
+      - Business_objectives_and_stakeholder_objectives
+      - Motivating_employees
+      - Organisation_and_management
+      - Recruitment_selection_and_training_of_employees
+      - Internal_and_external_communication
+      - Marketing_competition_and_the_customer
+      - Market_research
+      - Marketing_mix
+      - Marketing_strategy
+      - Production_of_goods_and_services
+      - Costs_scale_of_production_and_breakeven_analysis
+      - Achieving_quality_production
+      - Location_decisions
+      - Business_finance_needs_and_sources
+      - Cash_flow_forecasting_and_working_capital
+      - Income_statements
+      - Statement_of_financial_position
+      - Analysis_of_accounts
+      - Economic_issues
+      - Environmental_and_ethical_issues
+      - Business_and_the_international_economy
+
+### subjects/Chemistry_0620   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/595444-2023-2025-syllabus.pdf
+  major_topics (9): Particulate_Nature, Experimental_Techniques, Stoichiometry, Chemical_Reactions, Acids_Bases_Salts, Periodic_Table, Metals_and_Reactivity, Air_Water_Environment, Organic_Chemistry
+  detailed_topics (23):
+      - Particulate_model
+      - Diffusion
+      - Purity_and_separation
+      - Atomic_structure_IGCSE
+      - Ions_and_bonds
+      - Formulae_and_equations
+      - Moles_and_mass
+      - Electrolysis_IGCSE
+      - Energy_changes_IGCSE
+      - Rate_and_equilibrium_IGCSE
+      - Redox_IGCSE
+      - Acids_and_bases_IGCSE
+      - Salts_and_titration
+      - Periodic_table_trends_IGCSE
+      - Group_properties_IGCSE
+      - Reactivity_series
+      - Extraction_of_metals
+      - Air_composition
+      - Water_and_pollution
+      - Alkanes_IGCSE
+      - Alkenes_IGCSE
+      - Alcohols_Acids_Esters_IGCSE
+      - Polymers_IGCSE
+
+### subjects/Computer_Science_0478   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/697167-2026-2028-syllabus.pdf
+  major_topics (10): Data_representation, Data_transmission, Hardware, Software, The_internet_and_its_uses, Automated_and_emerging_technologies, Algorithm_design_and_problemsolving, Programming, Databases, Boolean_logic
+  detailed_topics (33):
+      - Number_systems
+      - Text_sound_and_images
+      - Data_storage_and_compression
+      - Types_and_methods_of_data_transmission
+      - Methods_of_error_detection
+      - Encryption
+      - Computer_architecture
+      - Input_and_output_devices
+      - Data_storage
+      - Network_hardware
+      - Types_of_software
+      - Types_of_programming_language_translators_and_IDEs
+      - The_internet_and_the_world_wide_web
+      - Digital_currency
+      - Cyber_security
+      - Automated_systems
+      - Robotics
+      - Artificial_intelligence
+      - Program_development_life_cycle
+      - Subsystems_and_decomposition
+      - Algorithm_design
+      - Flowcharts
+      - Pseudocode
+      - Programming_concepts
+      - Arrays
+      - File_handling
+      - Validation_and_verification
+      - Database_concepts
+      - SQL
+      - Data_definition_language_and_data_manipulation_language
+      - Logic_gates
+      - Truth_tables
+      - Logic_expressions_and_circuits
+
+### subjects/Economics_0455   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/697154-2026-syllabus.pdf
+  major_topics (6): The_basic_economic_problem, The_allocation_of_resources, Microeconomic_decision_makers, Government_and_the_macroeconomy, Economic_development, International_trade_and_globalisation
+  detailed_topics (38):
+      - The_nature_of_the_economic_problem
+      - The_factors_of_production
+      - Opportunity_cost
+      - Production_possibility_curve_diagrams
+      - Microeconomics_and_macroeconomics
+      - The_role_of_markets_in_allocating_resources
+      - Demand
+      - Supply
+      - Price_determination
+      - Price_changes
+      - Price_elasticity_of_demand
+      - Price_elasticity_of_supply
+      - Market_economic_system
+      - Market_failure
+      - Mixed_economic_system
+      - Money_and_banking
+      - Households
+      - Workers
+      - Trade_unions
+      - Firms
+      - Firms_and_production
+      - Firms_costs_revenue_and_objectives
+      - Market_structure
+      - Government_macroeconomic_intervention
+      - Fiscal_policy
+      - Monetary_policy
+      - Supplyside_policy
+      - Economic_growth
+      - Employment_and_unemployment
+      - Inflation
+      - Living_standards
+      - Poverty
+      - Population
+      - Differences_in_economic_development_between_countries
+      - Specialisation_and_free_trade
+      - Globalisation_and_trade_restrictions
+      - Foreign_exchange_rates
+      - Current_account_of_the_balance_of_payments
+
+### subjects/Geography_0460   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/718150-2027-2029-syllabus.pdf
+  major_topics (10): Changing_river_environments, Changing_coastal_environments, Changing_ecosystems, Tectonic_hazards, Climate_change, Changing_populations, Changing_towns_and_cities, Development, Changing_economies, Resource_provision
+  detailed_topics (42):
+      - River_processes
+      - River_landforms
+      - Opportunities_and_hazards_of_living_near_a_river
+      - River_flooding_causes_and_impacts
+      - Managing_river_flooding
+      - River_pollution
+      - Coastal_processes
+      - Coastal_landforms
+      - Opportunities_and_hazards_of_living_near_coast
+      - Managing_coastal_erosion_and_flooding
+      - Tropical_storms
+      - Characteristics_of_Antarctic_ecosystem
+      - Threats_to_Antarctic_ecosystem
+      - Tropical_rainforest_ecosystem
+      - Threats_to_rainforest
+      - Managing_ecosystems
+      - Structure_of_Earth_and_plate_boundaries
+      - Earthquakes_and_volcanoes_processes
+      - Impacts_of_tectonic_hazards
+      - Managing_tectonic_hazards
+      - Evidence_of_climate_change
+      - Natural_causes_of_climate_change
+      - Human_causes_enhanced_greenhouse
+      - Impacts_of_climate_change
+      - Managing_climate_change
+      - Population_growth_and_decline
+      - Population_structures
+      - International_migration
+      - Managing_migration
+      - Where_people_live_and_urban_growth
+      - Opportunities_and_challenges_of_urbanisation
+      - Managing_urban_growth
+      - Measuring_development
+      - Inequalities_in_development
+      - Strategies_to_improve_development
+      - Changing_employment_structures
+      - Globalisation_and_transnational_corporations
+      - Industrial_location_factors
+      - How_food_is_produced
+      - Challenges_of_food_supply
+      - Energy_provision
+      - Water_provision
+
+### subjects/History_0470   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/721327-2027-2028-syllabus.pdf
+  major_topics (7): Core_History_19th_century_Development_of_modern_nation_states, Core_History_20th_century_International_relations_since_1919, Depth_Study_First_World_War_191418, Depth_Study_Germany_191845, Depth_Study_Russia_190541, Depth_Study_USA_191941, Depth_Study_Second_World_War_Europe_and_Asia_Pacific_193945
+  detailed_topics (32):
+      - Were_the_revolutions_of_1848_important
+      - How_was_Italy_unified
+      - How_was_Germany_unified
+      - Why_was_there_a_civil_war_in_the_United_States_and_what_were_its_results
+      - Why_and_with_what_effects_did_Europeans_expand_their_overseas_empires
+      - What_caused_the_First_World_War
+      - Was_the_Treaty_of_Versailles_fair
+      - To_what_extent_was_the_League_of_Nations_a_success
+      - How_far_was_Hitlers_foreign_policy_to_blame_for_the_outbreak_of_war_in_1939
+      - Who_was_to_blame_for_the_Cold_War
+      - How_effectively_did_the_United_States_contain_the_spread_of_communism
+      - How_secure_was_the_USSRs_control_over_Eastern_Europe
+      - Why_did_events_in_the_Gulf_matter
+      - Why_was_the_war_not_over_by_December_1914
+      - Why_was_there_stalemate_on_the_Western_Front
+      - How_important_were_other_fronts
+      - Why_did_Germany_ask_for_an_armistice_in_1918
+      - Was_the_Weimar_Republic_doomed_from_the_start
+      - Why_was_Hitler_able_to_dominate_Germany_by_1934
+      - How_effectively_did_the_Nazis_control_Germany_193345
+      - What_was_it_like_to_live_in_Nazi_Germany
+      - Why_did_the_Tsarist_regime_collapse_in_1917
+      - How_did_the_Bolsheviks_gain_power_and_consolidate_their_rule
+      - How_did_Stalin_gain_and_hold_on_to_power
+      - What_was_the_impact_of_Stalins_economic_policies
+      - How_far_did_the_US_economy_boom_in_the_1920s
+      - How_far_did_US_society_change_in_the_1920s
+      - What_were_the_causes_and_consequences_of_the_Wall_Street_Crash
+      - How_successful_was_the_New_Deal
+      - How_did_the_Second_World_War_in_Europe_develop
+      - How_important_was_the_Second_World_War_in_Asia_and_the_Pacific
+      - Why_did_the_war_end
+
+### subjects/ICT_0417   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/595352-2023-2025-syllabus.pdf
+  major_topics (9): Types_and_components_of_computer_systems, Input_and_output_devices, Storage_devices_and_media, Networks_and_the_effects_of_using_them, The_effects_of_using_IT, ICT_applications, The_systems_life_cycle, Safety_and_security, Practical_skills
+  detailed_topics (47):
+      - Hardware_components
+      - Software_components
+      - Emerging_technologies
+      - Digital_data
+      - Input_devices_and_their_uses
+      - Output_devices_and_their_uses
+      - Sensors_and_control
+      - Types_of_storage
+      - Storage_media
+      - File_sizes_and_measurement
+      - Network_types
+      - Network_hardware
+      - Network_environments
+      - Internet_and_intranet
+      - Microprocessor_controlled_devices
+      - Health_problems_and_safety
+      - Esafety
+      - Communication_applications
+      - Data_handling_applications
+      - Measurement_applications
+      - Modelling_applications
+      - Computer_controlled_systems
+      - School_management_systems
+      - Expert_systems
+      - Point_of_sale
+      - Analysis
+      - Design
+      - Development_and_testing
+      - Implementation
+      - Documentation
+      - Evaluation
+      - Physical_safety
+      - Esecurity
+      - Data_security
+      - Audience
+      - Communication
+      - File_management
+      - Images
+      - Layout
+      - Styles
+      - Proofing
+      - Graphs_and_charts
+      - Document_production
+      - Databases
+      - Presentations
+      - Spreadsheets
+      - Website_authoring
+
+### subjects/Literature_in_English_0475   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/697163-2026-syllabus.pdf
+  major_topics (7): Poetry, Prose, Drama, Unseen_texts, Literary_techniques, Themes_and_characterisation, Context_and_comparison
+  detailed_topics (28):
+      - Poetry_analysis
+      - Poetic_devices
+      - Poetic_form_and_structure
+      - Poets_context
+      - Prose_analysis
+      - Narrative_voice
+      - Characterisation_prose
+      - Prose_themes
+      - Dramatic_techniques
+      - Staging_and_stage_directions
+      - Characterisation_drama
+      - Drama_themes
+      - Unseen_poetry_analysis
+      - Unseen_prose_analysis
+      - Close_reading
+      - Interpretation
+      - Language_and_imagery
+      - Structure_and_form
+      - Literary_devices
+      - Tone_and_style
+      - Themes_exploration
+      - Characterisation_analysis
+      - Relationships
+      - Settings
+      - Historical_context
+      - Literary_context
+      - Comparison_of_texts
+      - Personal_response
+
+### subjects/Mathematics_0580   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/XXXX-0580-syllabus.pdf
+  major_topics (4): P1_Non_Calculator_Core, P2_Calculator_Core, P3_Non_Calculator_Extended, P4_Calculator_Extended
+  detailed_topics (4):
+      - P1_Non_Calculator_Core
+      - P2_Calculator_Core
+      - P3_Non_Calculator_Extended
+      - P4_Calculator_Extended
+
+### subjects/Physics_0625   (version 2026, board CIE)
+  official_source: https://www.cambridgeinternational.org/Images/595448-2023-2025-syllabus.pdf
+  major_topics (6): General_Physics, Thermal_Physics, Waves, Electricity_and_Magnetism, Nuclear_Physics, Space_Physics
+  detailed_topics (21):
+      - Motion_IGCSE
+      - Mass_Weight_Density
+      - Forces_IGCSE
+      - Momentum_IGCSE
+      - Energy_Work_Power_IGCSE
+      - Pressure_IGCSE
+      - Thermal_Expansion
+      - Heat_Capacity
+      - Melting_Boiling
+      - Thermal_Transfer
+      - Light_IGCSE
+      - Sound_IGCSE
+      - Wave_Properties_IGCSE
+      - Electromagnetic_Spectrum
+      - Electrostatics_IGCSE
+      - Current_Voltage_IGCSE
+      - Circuits_IGCSE
+      - Magnetism_IGCSE
+      - Electromagnetism_IGCSE
+      - Radioactivity_IGCSE
+      - Stars_and_Universe
+
+PART 5 — AQA A-LEVEL CHEMISTRY (7404/7405) — EXTRACTED FROM AQA'S OWN PDF
+source: https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-7404-7405-SP-2015.PDF
+fetched 2026-09-19 · sha256 405e292e9b005866… (file: repo/ext/AQA-7404-7405.pdf)
+REPAIR PASS 2026-09-19 (2): full regeneration with a corrected extractor.
+Previous defects fixed: (a) an early version claimed 34 sub-topics but listed
+only section headings + TOC admin noise; (b) an over-eager ADMIN filter dropped
+[3.3.1] Introduction to organic chemistry; (c) line-wrap truncation in titles.
+All 3 content sections and 34 numbered sub-topics below were re-extracted
+verbatim from the stored PDF and merged across wrapped lines. Use VERBATIM;
+codes = the numbering AQA mark schemes reference, so the Phase-9 spec-reference
+check extends to every AQA 7404/7405 paper.
+NOTE: AQA content bullets go one level deeper (X.Y.Z.N) in some subjects;
+X.Y.Z stays the canonical key (same granularity already validated vs MS refs).
+Practical-skill sections (7.3/8.3 written, 8.4 endorsement) are deliberately
+OUT of the content taxonomy. GCSE 8462 = Part 5b; GCSE 8465 (2018 revision)
+filename still unresolved — RESOLVE row in manifest.
+  [3.1] Physical chemistry
+      [3.1.1] Atomic structure
+      [3.1.2] Amount of substance
+      [3.1.3] Bonding
+      [3.1.4] Energetics
+      [3.1.5] Kinetics
+      [3.1.6] Chemical equilibria, Le Chatelier’s principle and Kc
+      [3.1.7] Oxidation, reduction and redox equations
+      [3.1.8] Thermodynamics (A-level only)
+      [3.1.9] Rate equations (A-level only)
+      [3.1.10] Equilibrium constant Kp for homogeneous systems (A-level only)
+      [3.1.11] Electrode potentials and electrochemical cells (A-level only)
+      [3.1.12] Acids and bases (A-level only)
+  [3.2] Inorganic chemistry
+      [3.2.1] Periodicity
+      [3.2.2] Group 2, the alkaline earth metals
+      [3.2.3] Group 7(17), the halogens
+      [3.2.4] Properties of Period 3 elements and their oxides (A-level only)
+      [3.2.5] Transition metals (A-level only)
+      [3.2.6] Reactions of ions in aqueous solution (A-level only)
+  [3.3] Organic chemistry
+      [3.3.1] Introduction to organic chemistry
+      [3.3.2] Alkanes
+      [3.3.3] Halogenoalkanes
+      [3.3.4] Alkenes
+      [3.3.5] Alcohols
+      [3.3.6] Organic analysis
+      [3.3.7] Optical isomerism (A-level only)
+      [3.3.8] Aldehydes and ketones (A-level only)
+      [3.3.9] Carboxylic acids and derivatives (A-level only)
+      [3.3.10] Aromatic chemistry (A-level only)
+      [3.3.11] Amines (A-level only)
+      [3.3.12] Polymers (A-level only)
+      [3.3.13] Amino acids, proteins and DNA (A-level only)
+      [3.3.14] Organic synthesis (A-level only)
+      [3.3.15] Nuclear magnetic resonance spectroscopy (A-level only)
+      [3.3.16] Chromatography (A-level only)
+
+================================================================================
+PART 5b — AQA GCSE CHEMISTRY (8462, teaching 2016 / exams to 2024) — EXTRACTED
+FROM AQA'S OWN PDF. This is THE GCSE IN THE CURRENT CORPUS (8462/1H, 8462/2H).
+source: filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF
+sha256 ecd869d1874091a0… · REBUILT with the corrected extractor (full wrapped titles).
+Official section-4 numbering = what the mark schemes reference (4.3.1.4 etc),
+so the Phase-9 spec-reference cross-check has its full taxonomy at both levels.
+10 content sections / 32 numbered sub-topics:
+  [4.1] Atomic structure and the periodic table
+      [4.1.1] A simple model of the atom, symbols, relative atomic mass, electronic charge and isotopes
+      [4.1.2] The periodic table
+      [4.1.3] Properties of transition metals (chemistry only)
+  [4.2] Bonding, structure, and the properties of matter
+      [4.2.1] Chemical bonds, ionic, covalent and metallic
+      [4.2.2] How bonding and structure are related to the properties of substances
+      [4.2.3] Structure and bonding of carbon
+      [4.2.4] Bulk and surface properties of matter including nanoparticles
+  [4.3] Quantitative chemistry
+      [4.3.1] Chemical measurements, conservation of mass and the quantitative interpretation of chemical equations
+      [4.3.2] Use of amount of substance in relation to masses of pure substances
+      [4.3.3] Yield and atom economy of chemical reactions (chemistry only)
+      [4.3.4] Using concentrations of solutions in mol/dm3 (chemistry only)
+      [4.3.5] Use of amount of substance in relation to volumes of gases
+  [4.4] Chemical changes
+      [4.4.1] Reactivity of metals
+      [4.4.2] Reactions of acids
+      [4.4.3] Electrolysis
+  [4.5] Energy changes
+      [4.5.1] Exothermic and endothermic reactions
+      [4.5.2] Chemical cells and fuel cells (chemistry only)
+  [4.6] The rate and extent of chemical change
+      [4.6.1] Rate of reaction
+      [4.6.2] Reversible reactions and dynamic equilibrium
+  [4.7] Organic chemistry
+      [4.7.1] Carbon compounds as fuels and feedstock
+      [4.7.2] Reactions of alkenes and alcohols (chemistry only)
+      [4.7.3] Synthetic and naturally occurring polymers (chemistry only)
+  [4.8] Chemical analysis
+      [4.8.1] Purity, formulations and chromatography
+      [4.8.2] Identification of common gases
+      [4.8.3] Identification of ions by chemical and spectroscopic means
+  [4.9] Chemistry of the atmosphere
+      [4.9.1] The composition and evolution of the Earth's atmosphere
+      [4.9.2] Carbon dioxide and methane as greenhouse gases
+      [4.9.3] Common atmospheric pollutants and their sources
+  [4.10] Using resources
+      [4.10.1] Using the Earth's resources and obtaining potable water
+      [4.10.2] Life cycle assessment and recycling
+      [4.10.3] Using materials (chemistry only)
+      [4.10.4] The Haber process and the use of NPK fertilisers (chemistry only)
+STRUCTURE FACTS: [4.11] Key ideas in chemistry exists as the closing section of
+the spec but carries NO numbered sub-topics — deliberately excluded from the
+taxonomy (no MS code points at it). Practical layer: [8.1]-[8.4], incl. 12
+required practicals (8.2), tracked as a separate skills axis, not content topics.
+Combined-science 8464 reuses the same 4.x codes (half the content per science).
+
+================================================================================
+PART 6 — SAT (DIGITAL SUITE) — EXTRACTED TODAY FROM COLLEGE BOARD'S OWN PDF
+source: assessment-framework-for-digital-sat-suite.pdf (satsuite.collegeboard.org,
+2.7MB fetched 2026-09-19; tables 11-14 + 21-24, printed pp 58-116).
+OFFICIAL 2-LEVEL TAXONOMY, verbatim testing-point names as the PDF prints them:
+
+  READING AND WRITING (one domain + one testing point per item):
+    Information and Ideas
+      • Central Ideas and Details
+      • Command of Evidence (Textual, Quantitative)
+      • Inferences
+    Craft and Structure
+      • Words in Context
+      • Text Structure and Purpose
+      • Cross-Text Connections
+    Expression of Ideas
+      • Rhetorical Synthesis
+      • Transitions
+    Standard English Conventions
+      • Boundaries
+      • Form, Structure, and Sense
+  MATH:
+    Algebra
+      • Linear equations in one variable
+      • Linear equations in two variables
+      • Linear functions
+      • Linear inequalities in one or two variables
+    Advanced Math
+      • Nonlinear equations in one variable and systems
+      • Equivalent expressions
+      • Nonlinear functions
+    Problem-Solving and Data Analysis
+      • Ratios, rates, proportional relationships, and units
+      • Percentages
+      • Probability and conditional probability
+      • Inference from sample statistics
+    Geometry and Trigonometry
+      • Lines, angles, and triangles
+      • Right triangles and trigonometry
+      • Circles
+      • Area and volume
+  PROGRAM NOTES (Skills Insight doc, same host): SAT/PSAT-NMSQT/PSAT 10 share
+  all four math domains; PSAT 8/9: Geometry but NO trigonometry ("Lines,
+  angles, and triangles, including right triangles" / "Right triangles and
+  right triangle trigonometry" wording differs by program — read per-program
+  tables 17/18, don't average). Essay/Writing test: legacy paper format,
+  separate handling, do not retro-fit.
+  TAXONOMY STATUS: PROVEN (extracted from PDF text layer; re-confirm table
+  numbers 11-14/21-24 when building taxonomy.json). Classification: exactly
+  one domain + one testing point per question; disagreement with explanation
+  docs' skill statements -> REVIEW_REQUIRED, both recorded.
+
+================================================================================
+PART 7 — IB DP CHEMISTRY — EXTRACTED TODAY FROM IBO'S PUBLISHED SUBJECT BRIEF
+source: dp_sciences_chemistry_subject-brief_jan_2022_e.pdf (ibo.org/globalassets,
+first assessment 2025) — curl is bot-blocked at ibo.org; the page-fetcher
+retrieved the full syllabus table 2026-09-19. Structure + sub-topics verbatim:
+
+  NEW SYLLABUS (assessments from 2025):
+    Structure 1. Models of the particulate nature of matter
+      1.1 Introduction to the particulate nature of matter · 1.2 The nuclear atom
+      1.3 Electron configurations · 1.4 Counting particles by mass: The mole
+      1.5 Ideal gases
+    Structure 2. Models of bonding and structure
+      2.1 The ionic model · 2.2 The covalent model · 2.3 The metallic model
+      2.4 From models to materials
+    Structure 3. Classification of matter
+      3.1 The periodic table: Classification of elements
+      3.2 Functional groups: Classification of organic compounds
+    Reactivity 1. What drives chemical reactions?
+      1.1 Measuring enthalpy change · 1.2 Energy cycles in reactions
+      1.3 Energy from fuels · 1.4 Entropy and spontaneity (Additional higher level)
+    Reactivity 2. How much, how fast and how far?
+      2.1 How much? The amount of chemical change
+      2.2 How fast? The rate of chemical change
+      2.3 How far? The extent of chemical change
+    Reactivity 3. What are the mechanisms of chemical change?
+      3.1 Proton transfer reactions · 3.2 Electron transfer reactions
+      3.3 Electron sharing reactions · 3.4 Electron-pair sharing reactions
+  The brief marks selected sub-topics "(Additional higher level)"; the full
+  X.Y.Z detail + all AHL sub-topics are in the Chemistry guide, which IB hosts
+  PUBLICLY at ibo.org/globalassets/new-structure/university-admission/pdfs/
+  subject-guides/chemistry-guide.pdf (first assessment 2025) — agent: fetch it,
+  extend taxonomy to the numbered X.Y.Z level the guide prints.
+  OLD SYLLABUS (papers to 2024 — needed for era-correct classification, 6.21):
+  numbered topics 1-11 (+HL 12-13+ and options per subject brief):
+  1 Stoichiometric relationships · 2 Atomic structure · 3 Periodicity ·
+  4 Chemical bonding and structure · 5 Energetics/thermochemistry ·
+  6 Chemical kinetics · 7 Equilibrium · 8 Acids and bases · 9 Redox processes ·
+  10 Organic chemistry · 11 Measurement and data processing (Core+HL structure;
+  HL adds 12-13 style extensions and Options A Materials/B Biochemistry/C
+  Energy/D Medicinal chemistry — CANDIDATE until re-extracted from
+  chemistryhl2016englishw.pdf on the same host; that URL fetched but
+  bot-blocked via curl, page-fetcher works).
+  Non-bankable components (practical work, collaborative sciences project,
+  internal assessment/scientific investigation): component-type labelled,
+  never forced into topic folders (Part 15.15).
+  OTHER IB SUBJECTS: every brief follows the same published pattern
+  (subject brief = syllabus table; guide = numbered detail). Agent: loop the
+  fetch via the page-fetcher route over ibo.org/globalassets subject-brief and
+  subject-guide PDFs per subject in the verification list.
+================================================================================
+
+================================================================================
+PART 8 — EDEXCEL INTERNATIONAL GCSE CHEMISTRY (9CH0, 9–1) — PROVEN EXTRACTION
+THE CORPUS PAPER UNBLOCKED (9CH0/01 was the corpus entry with no taxonomy).
+source: qualifications.pearson.com/content/dam/pdf/International GCSE/Chemistry/
+2017/specification-and-sample-assessments/international-gcse-chemistry-2017-
+specification.pdf · fetched 2026-09-19 · 1.72MB · sha256 36e2080d2e99f060...
+Specification Issue 3 (September 2024). Official structure verbatim:
+
+  1. Principles of chemistry
+     (a) States of matter · (b) Elements, compounds and mixtures ·
+     (c) Atomic structure · (d) The Periodic Table ·
+     (e) Chemical formulae, equations and calculations · (f) Ionic bonding ·
+     (g) Covalent bonding · (h) Metallic bonding · (i) Electrolysis
+  2. Inorganic chemistry
+     (a) Group 1 (alkali metals) – lithium, sodium and potassium ·
+     (b) Group 7 (halogens) – chlorine, bromine and iodine ·
+     (c) Gases in the atmosphere · (d) Reactivity series ·
+     (e) Extraction and uses of metals · (f) Acids, alkalis and titrations ·
+     (g) Acids, bases and salt preparations · (h) Chemical tests
+  3. Physical chemistry
+     (a) Energetics · (b) Rates of reaction ·
+     (c) Reversible reactions and equilibria
+  4. Organic chemistry
+     (a) Introduction · (b) Crude oil · (c) Alkanes · (d) Alkenes ·
+     (e) Alcohols · (f) Carboxylic acids · (g) Esters · (h) Synthetic polymers
+
+  STRUCTURE FACTS for the parser (not in any prior spec part):
+   · Under each lettered topic sit numbered learning outcomes "1.23", "2.49"…;
+     outcomes numbered SEQUENTIALLY PER SECTION (section 1 runs 1.1–1.~100).
+   · Outcomes marked "C" (e.g. 1.34C) = content additional to the (9–1) Core —
+     the A*/9-tier marker. Taxonomy keeps them; a future Core-vs-9–1 filter can
+     key off this letter. Never drop them silently.
+   · "practical:" outcomes (e.g. 1.36) are required-practical statements —
+     topic-assignable, and they double as insert/practical-adjacent evidence.
+   · TAXONOMY LEVEL: major = section (1–4); topic = lettered sub-topic
+     (e.g. "1(d) The Periodic Table"); outcomes = keyword/learning layer,
+     NOT folders. Folder-name = Direct Copy of the lettered title.
+
+  Correction to earlier manifest note: the failed 2015 A-level Edexcel fetch
+  was MY wrong DAM path (and an unencoded space), not a Pearson bot-block —
+  "content/dam" serves direct requests fine with correct URLs. Edexcel
+  A-level (8CH0 legacy / 9083–9088 IAL / 9CH0) specs remain in the fetch
+  queue with this knowledge; the 2017-IGCSE path template above is the
+  working template per series folder.
+
+================================================================================
+PART 9 — OCR A-LEVEL CHEMISTRY A (H432, +AS H032) — PROVEN EXTRACTION (topics)
+source: ocr.org.uk/Images/171720-specification-accredited-a-level-gce-
+chemistry-a-h432.pdf · fetched 2026-09-19 · 21.4MB real PDF ·
+sha256 83d7a5c69b585fda...  (found via the qualification page; the guessed
+308672/308673 asset ids were 404 HTML — OCR asset IDs must come from the page)
+Official content codes as printed (tab-separated titles in the text layer;
+X.0 "Covers," artifacts dropped):
+
+  1.1 Practical skills assessed in a written examination
+      1.1.1 Planning · 1.1.2 Implementing · 1.1.3 Analysis · 1.1.4 Evaluation
+  1.2 Practical skills assessed in the practical endorsement
+      1.2.1 Practical skills · 1.2.2 Use of apparatus and techniques
+  2.1 Atoms and reactions
+      2.1.1 Atomic structure and isotopes · 2.1.2 Compounds, formulae and
+      equations · 2.1.3 Amount of substance
+  2.2 Electrons, bonding and structure
+      2.2.1 Electron structure · 2.2.2 Bonding and structure
+  3.1 The periodic table
+      3.1.1 Periodicity · 3.1.2 Group 2 · 3.1.3 The halogens ·
+      3.1.4 Qualitative analysis
+  3.2 Physical chemistry
+      3.2.1 Enthalpy changes · 3.2.2 Reaction rates · 3.2.3 Chemical equilibrium
+  4.1 Basic concepts and hydrocarbons
+      4.1.1 Basic concepts of organic chemistry · 4.1.2 Alkanes · 4.1.3 Alkenes
+  4.2 Alcohols, haloalkanes and analysis
+      4.2.1 Alcohols · 4.2.2 Haloalkanes · 4.2.3 Organic synthesis ·
+      4.2.4 Analytical techniques
+  5.1 Rates, equilibrium and pH
+      5.1.1 How fast? · 5.1.2 How far? · 5.1.3 Acids, bases and buffers
+  5.2 Energy
+      5.2.1 Lattice enthalpy · 5.2.2 Enthalpy and entropy ·
+      5.2.3 Redox and electrode potentials
+  5.3 Transition elements
+  6.x  Organic chemistry & analysis (A-level extension: 6.1 Aromatic
+      compounds, 6.2 Carbonyl & carboxylic derivatives, 6.3 Spectroscopy —
+      CANDIDATE names seen in OCR's own advance-info table; COMPLETE list is
+      in the downloaded PDF — agent: finish the sweep through sections 6.x
+      with fetch_topics.py on ext/OCR-H432-REAL.pdf; extraction pattern proven
+      at 59 codes, do not hand-type the tail)
+  STATUS: L1/L2 topic lists PROVEN from the official PDF; the full 43+
+  learning-outcome sweep is in the file already downloaded — build
+  taxonomy.json from it, not from this digest.
+  OCR GCSE 9620 (Gateway, 9–1): still queued — same page-first method
+  (find asset ID on the qualification page, then /Images/<id>-…pdf).
+
+================================================================================
+PART 10 — EDEXCEL IGCSE PHYSICS (9PH0, 9–1) — PROVEN EXTRACTION
+source: content/dam/pdf/International GCSE/Physics/2017/specification-and-
+sample-assessments/international-gcse-physics-2017-specification.pdf ·
+fetched 2026-09-19 · 1.36MB · (Pearson's 152114-byte HTML = generic 404 —
+useful sentinel: any 152114B "pdf" is a miss, not a block)
+  1 Forces and motion:      (a) Units (b) Movement and position
+                            (c) Forces, movement, shape and momentum
+  2 Electricity:            (a) Units (b) Mains electricity
+                            (c) Energy and voltage in circuits (d) Electric charge
+  3 Waves:                  (a) Units (b) Properties of waves
+                            (c) The electromagnetic spectrum (d) Light and sound
+  4 Energy resources and energy transfers:
+        (a) Units (b) Energy transfers (c) Work and power
+        (d) Energy resources and electricity generation
+  5 Solids, liquids and gases:
+        (a) Units (b) Density and pressure (c) Change of state (d) Ideal gas molecules
+  6 Magnetism and electromagnetism:
+        (a) Units (b) Magnetism (c) Electromagnetism (d) Electromagnetic induction
+  7 Radioactivity and particles:
+        (…Radioactivity · Fission and fusion · Motion in the universe ·
+         Stellar evolution · Cosmology — sub-letters garbled in text layer at
+         the topic boundary; agent: re-sweep pp 30-33 with fetch_topics.py)
+  NOTE: "(a) Units" is a cross-cutting learning-outcome block repeated per
+  topic (same pattern as maths skills in Edexcel specs). Treat as a real
+  sub-topic per taxonomy or per-section skill layer — a documented choice,
+  recorded in docs/research/, not an accident.
+  Edexcel IGCSE Biology 2017 + Economics/Business 2019 + ALL A-level specs:
+  DAM filename differs per subject (my 9 guessed paths hit the 404 sentinel).
+  Each subject's exact path resolves from its qualification page asset list —
+  that is an agent loop, same as OCR asset-id hunting. No subject is blocked;
+  only path-resolution is pending.
+
+================================================================================
+PART 11 — IB DP BIOLOGY & PHYSICS (first assessment 2025) — PROVEN EXTRACTION
+source pattern: ibo.org/globalassets/new-structure/recognition/pdfs/
+dp_sciences_<subject>_subject-brief_jan_2022_e.pdf  (page-fetch route; curl
+bot-blocked).  Chemistry already at PART 7. Structures as the briefs print:
+
+  BIOLOGY — 4 unifying themes; topics are named (not numbered) per theme;
+  * = HL-only content (the brief's own marker):
+    Unity and diversity: Water · Nucleic acids · Origins of cells* · Cell
+      structure · Viruses* · Diversity of organisms · Classification and
+      cladistics* · Evolution and speciation · Conservation of biodiversity
+    Form and function: Carbohydrates and lipids · Proteins · Membranes and
+      membrane transport · Organelles and compartmentalization · Cell
+      specialization · Gas exchange · Transport · Muscle and motility* ·
+      Adaptation to environment · Ecological niches
+    Interaction and interdependence: Enzymes and metabolism · Cell
+      respiration · Photosynthesis · Chemical signalling* · Neural
+      signalling* · Integration of body systems · Defence against disease ·
+      Populations and communities · Transfer of energy and matter
+    Continuity and change: DNA replication · Protein synthesis · Mutations
+      and gene editing · Cell and nuclear division · Gene expression* · Water
+      potential* · Reproduction · Inheritance · Homeostasis · Natural
+      selection* · Sustainability and change* · Climate change
+  PHYSICS — lettered sections + numbered sub-topics; •/••/••• = SL / SL+HL
+    extra / HL-only (the brief prints the key — encode as level flags):
+    A Space, time and motion: A.1 Kinematics · A.2 Forces and momentum ·
+      A.3 Work, energy and power · A.4 Rigid body mechanics••• ·
+      A.5 Galilean and special relativity•••
+    B The particulate nature of matter: B.1 Thermal energy transfers ·
+      B.2 Greenhouse effect · B.3 Gas laws · B.4 Thermodynamics•• ·
+      B.5 Current and circuits•
+    C Wave behaviour: C.1 Simple harmonic motion•• · C.2 Wave model ·
+      C.3 Wave phenomena•• · C.4 Standing waves and resonance ·
+      C.5 Doppler effect••
+    D Fields: D.1 Gravitational fields•• · D.2 Electric and magnetic
+      fields•• · D.3 Motion in electromagnetic fields• · D.4 Induction•••
+    E Nuclear and quantum physics: E.1 Structure of the atom•• ·
+      E.2 Quantum physics••• · E.3 Radioactive decay•• · E.4 Fission ·
+      E.5 Fusion and stars
+
+BULK ROSTER (the honest "all subjects" — one fetch-queue row each, proven
+methods, zero hand-typed taxonomies):
+  IB remaining DP subjects: follow the SAME brief URL shape per group slug —
+  dp_mathematics_mathematics-analysis-and-approaches / mathematics-applications-
+  and-interpretation · dp_language-acquisition_<lang> · dp_individuals-and-
+  societies_history/economics · dp_group-6-arts_visual-arts · studies-in-
+  language-and-literature — the YEAR token varies by syllabus edition and the
+  group slug per subject MUST come from IB's subject page (fetch_page works on
+  ibo.org; curl does not). Old-syllabus briefs/guides: same hunt, era-versioned
+  per Part 6.21. Every brief fetched -> taxonomy_builder, every miss ->
+  SOURCE_NOT_ACCESSIBLE row in the support matrix.
+  OCR remaining: A-level H432 PDF already local (finish 6.x sweep with
+  fetch_topics.py — proven pattern, 59 codes so far); GCSE J248 + every other
+  OCR subject: asset ids ONLY from qualification pages (page fetch; the GCSE
+  page in this sandbox returned a JS shell — retry with the agent's fetcher);
+  guessed /Images/<id> numbers are 404s, never use them.
+  Edexcel remaining: per-subject DAM filename from the qualification page's
+  asset list; 152114B sentinel = miss. IAL series specs follow the same DAM
+  host under 'International Advanced Level'.
+================================================================================
+
+================================================================================
+PART 12 — AQA MULTI-SUBJECT EXPANSION — PROVEN, EXTRACTED FROM AQA'S OWN PDFs
+(all downloaded from filestore.aqa.org.uk this session; sha256 recorded per file;
+AQA filename pattern = AQA-<codes>-SP-<year>.PDF). REBUILT 2026-09-19 with the
+corrected extractor (no ADMIN over-filtering of content titles; wrapped titles
+merged; short titles like 'ATP' captured). Machine twin: repo/ext/AQA_ALL.json.
+MAJORS below are the numbered CONTENT sections; practical-skill sections are
+kept OUT (they are a separate skills axis, not content topics).
+
+### AQA A-level Chemistry 7404/7405 — 3 sections / 34 sub-topics (sha 405e292e9b005866)
+  NOTE: practical layer, separate: 7.3/8.3/8.4
+  [3.1] Physical chemistry
+      [3.1.1] Atomic structure
+      [3.1.2] Amount of substance
+      [3.1.3] Bonding
+      [3.1.4] Energetics
+      [3.1.5] Kinetics
+      [3.1.6] Chemical equilibria, Le Chatelier’s principle and Kc
+      [3.1.7] Oxidation, reduction and redox equations
+      [3.1.8] Thermodynamics (A-level only)
+      [3.1.9] Rate equations (A-level only)
+      [3.1.10] Equilibrium constant Kp for homogeneous systems (A-level only)
+      [3.1.11] Electrode potentials and electrochemical cells (A-level only)
+      [3.1.12] Acids and bases (A-level only)
+  [3.2] Inorganic chemistry
+      [3.2.1] Periodicity
+      [3.2.2] Group 2, the alkaline earth metals
+      [3.2.3] Group 7(17), the halogens
+      [3.2.4] Properties of Period 3 elements and their oxides (A-level only)
+      [3.2.5] Transition metals (A-level only)
+      [3.2.6] Reactions of ions in aqueous solution (A-level only)
+  [3.3] Organic chemistry
+      [3.3.1] Introduction to organic chemistry
+      [3.3.2] Alkanes
+      [3.3.3] Halogenoalkanes
+      [3.3.4] Alkenes
+      [3.3.5] Alcohols
+      [3.3.6] Organic analysis
+      [3.3.7] Optical isomerism (A-level only)
+      [3.3.8] Aldehydes and ketones (A-level only)
+      [3.3.9] Carboxylic acids and derivatives (A-level only)
+      [3.3.10] Aromatic chemistry (A-level only)
+      [3.3.11] Amines (A-level only)
+      [3.3.12] Polymers (A-level only)
+      [3.3.13] Amino acids, proteins and DNA (A-level only)
+      [3.3.14] Organic synthesis (A-level only)
+      [3.3.15] Nuclear magnetic resonance spectroscopy (A-level only)
+      [3.3.16] Chromatography (A-level only)
+
+### AQA A-level Biology 7402 — 8 sections / 39 sub-topics (sha bffcfd57505b50e1)
+  NOTE: A-level-only flags are part of the verbatim titles; 4-level bullets (e.g. 3.8.4.1) sit under X.Y.Z — key at X.Y.Z
+  [3.1] Biological molecules
+      [3.1.1] Monomers and polymers
+      [3.1.2] Carbohydrates
+      [3.1.3] Lipids
+      [3.1.4] Proteins
+      [3.1.5] Nucleic acids are important information-carrying molecules
+      [3.1.6] ATP
+      [3.1.7] Water
+      [3.1.8] Inorganic ions
+  [3.2] Cells
+      [3.2.1] Cell structure
+      [3.2.2] All cells arise from other cells
+      [3.2.3] Transport across cell membranes
+      [3.2.4] Cell recognition and the immune system
+  [3.3] Organisms exchange substances with their environment
+      [3.3.1] Surface area to volume ratio
+      [3.3.2] Gas exchange
+      [3.3.3] Digestion and absorption
+      [3.3.4] Mass transport
+  [3.4] Genetic information, variation and relationships between organisms
+      [3.4.1] DNA, genes and chromosomes
+      [3.4.2] DNA and protein synthesis
+      [3.4.3] Genetic diversity can arise as a result of mutation or during meiosis
+      [3.4.4] Genetic diversity and adaptation
+      [3.4.5] Species and taxonomy
+      [3.4.6] Biodiversity within a community
+      [3.4.7] Investigating diversity
+  [3.5] Energy transfers in and between organisms (A-level only)
+      [3.5.1] Photosynthesis (A-level only)
+      [3.5.2] Respiration (A-level only)
+      [3.5.3] Energy and ecosystems (A-level only)
+      [3.5.4] Nutrient cycles (A-level only)
+  [3.6] Organisms respond to changes in their internal and external environments (A-level only)
+      [3.6.1] Stimuli, both internal and external, are detected and lead to a response (A-level only)
+      [3.6.2] Nervous coordination (A-level only)
+      [3.6.3] Skeletal muscles are stimulated to contract by nerves and act as effectors (A-level only)
+      [3.6.4] Homeostasis is the maintenance of a stable internal environment (A-level only)
+  [3.7] Genetics, populations, evolution and ecosystems (A- level only)
+      [3.7.1] Inheritance (A-level only)
+      [3.7.2] Populations (A-level only)
+      [3.7.3] Evolution may lead to speciation (A-level only)
+      [3.7.4] Populations in ecosystems (A-level only)
+  [3.8] The control of gene expression (A-level only)
+      [3.8.1] Alteration of the sequence of bases in DNA can alter the structure of proteins (A-level only)
+      [3.8.2] Gene expression is controlled by a number of features (A-level only)
+      [3.8.3] Using genome projects (A-level only)
+      [3.8.4] Gene technologies allow the study and alteration of gene function allowing a better understanding of organism function and the design of new industrial and medical processes (A-level only)
+
+### AQA A-level Physics 7408 — 13 sections / 38 sub-topics (sha 32a556da85fa0928)
+  NOTE: 3.9-3.13 are the option units (A-level only); AS = 3.1-3.8
+  [3.1] Measurements and their errors
+      [3.1.1] Use of SI units and their prefixes
+      [3.1.2] Limitation of physical measurements
+      [3.1.3] Estimation of physical quantities
+  [3.2] Particles and radiation
+      [3.2.1] Particles
+      [3.2.2] Electromagnetic radiation and quantum phenomena
+  [3.3] Waves
+      [3.3.1] Progressive and stationary waves
+      [3.3.2] Refraction, diffraction and interference
+  [3.4] Mechanics and materials
+      [3.4.1] Force, energy and momentum
+      [3.4.2] Materials
+  [3.5] Electricity
+      [3.5.1] Current electricity
+  [3.6] Further mechanics and thermal physics (A-level only)
+      [3.6.1] Periodic motion (A-level only)
+      [3.6.2] Thermal physics (A-level only)
+  [3.7] Fields and their consequences (A-level only)
+      [3.7.1] Fields (A-level only)
+      [3.7.2] Gravitational fields (A-level only)
+      [3.7.3] Electric fields (A-level only)
+      [3.7.4] Capacitance (A-level only)
+      [3.7.5] Magnetic fields (A-level only)
+  [3.8] Nuclear physics (A-level only)
+      [3.8.1] Radioactivity (A-level only)
+  [3.9] Astrophysics (A-level only)
+      [3.9.1] Telescopes (A-level only)
+      [3.9.2] Classification of stars (A-level only)
+      [3.9.3] Cosmology (A-level only)
+  [3.10] Medical physics (A-level only)
+      [3.10.1] Physics of the eye (A-level only)
+      [3.10.2] Physics of the ear (A-level only)
+      [3.10.3] Biological measurement (A-level only)
+      [3.10.4] Non-ionising imaging (A-level only)
+      [3.10.5] X-ray imaging (A-level only)
+      [3.10.6] Radionuclide imaging and therapy (A-level only)
+  [3.11] Engineering physics (A-level only)
+      [3.11.1] Rotational dynamics (A-level only)
+      [3.11.2] Thermodynamics and engines (A-level only)
+  [3.12] Turning points in physics (A-level only)
+      [3.12.1] The discovery of the electron (A-level only)
+      [3.12.2] Wave-particle duality (A-level only)
+      [3.12.3] Special relativity (A-level only)
+  [3.13] Electronics (A-level only)
+      [3.13.1] Discrete semiconductor devices (A-level only)
+      [3.13.2] Analogue and digital signals (A-level only)
+      [3.13.3] Analogue signal processing (A-level only)
+      [3.13.4] Operational amplifier in: (spec title; completed by 3.13.4.1-4)
+      [3.13.5] Digital signal processing (A-level only)
+      [3.13.6] Data communication systems (A-level only)
+
+### AQA GCSE Chemistry (8462) — 10 sections / 32 sub-topics (sha ecd869d1874091a0)
+  NOTE: see Part 5b for the practical layer + 4.11 note
+  [4.1] Atomic structure and the periodic table
+      [4.1.1] A simple model of the atom, symbols, relative atomic mass, electronic charge and isotopes
+      [4.1.2] The periodic table
+      [4.1.3] Properties of transition metals (chemistry only)
+  [4.2] Bonding, structure, and the properties of matter
+      [4.2.1] Chemical bonds, ionic, covalent and metallic
+      [4.2.2] How bonding and structure are related to the properties of substances
+      [4.2.3] Structure and bonding of carbon
+      [4.2.4] Bulk and surface properties of matter including nanoparticles
+  [4.3] Quantitative chemistry
+      [4.3.1] Chemical measurements, conservation of mass and the quantitative interpretation of chemical equations
+      [4.3.2] Use of amount of substance in relation to masses of pure substances
+      [4.3.3] Yield and atom economy of chemical reactions (chemistry only)
+      [4.3.4] Using concentrations of solutions in mol/dm3 (chemistry only)
+      [4.3.5] Use of amount of substance in relation to volumes of gases
+  [4.4] Chemical changes
+      [4.4.1] Reactivity of metals
+      [4.4.2] Reactions of acids
+      [4.4.3] Electrolysis
+  [4.5] Energy changes
+      [4.5.1] Exothermic and endothermic reactions
+      [4.5.2] Chemical cells and fuel cells (chemistry only)
+  [4.6] The rate and extent of chemical change
+      [4.6.1] Rate of reaction
+      [4.6.2] Reversible reactions and dynamic equilibrium
+  [4.7] Organic chemistry
+      [4.7.1] Carbon compounds as fuels and feedstock
+      [4.7.2] Reactions of alkenes and alcohols (chemistry only)
+      [4.7.3] Synthetic and naturally occurring polymers (chemistry only)
+  [4.8] Chemical analysis
+      [4.8.1] Purity, formulations and chromatography
+      [4.8.2] Identification of common gases
+      [4.8.3] Identification of ions by chemical and spectroscopic means
+  [4.9] Chemistry of the atmosphere
+      [4.9.1] The composition and evolution of the Earth's atmosphere
+      [4.9.2] Carbon dioxide and methane as greenhouse gases
+      [4.9.3] Common atmospheric pollutants and their sources
+  [4.10] Using resources
+      [4.10.1] Using the Earth's resources and obtaining potable water
+      [4.10.2] Life cycle assessment and recycling
+      [4.10.3] Using materials (chemistry only)
+      [4.10.4] The Haber process and the use of NPK fertilisers (chemistry only)
+
+### AQA GCSE Biology (8461) — 7 sections / 24 sub-topics (sha effa4236b6250dd1)
+  NOTE: combined-science 8464 shares these codes
+  [4.1] Cell biology
+      [4.1.1] Cell structure
+      [4.1.2] Cell division
+      [4.1.3] Transport in cells
+  [4.2] Organisation
+      [4.2.1] Principles of organisation
+      [4.2.2] Animal tissues, organs and organ systems
+      [4.2.3] Plant tissues, organs and systems
+  [4.3] Infection and response
+      [4.3.1] Communicable diseases
+      [4.3.2] Monoclonal antibodies (biology only) (HT only)
+      [4.3.3] Plant disease (biology only)
+  [4.4] Bioenergetics
+      [4.4.1] Photosynthesis
+      [4.4.2] Respiration
+  [4.5] Homeostasis and response
+      [4.5.1] Homeostasis
+      [4.5.2] The human nervous system
+      [4.5.3] Hormonal coordination in humans
+      [4.5.4] Plant hormones (biology only)
+  [4.6] Inheritance, variation and evolution
+      [4.6.1] Reproduction
+      [4.6.2] Variation and evolution
+      [4.6.3] The development of understanding of genetics and evolution
+      [4.6.4] Classification of living organisms
+  [4.7] Ecology
+      [4.7.1] Adaptations, interdependence and competition
+      [4.7.2] Organisation of an ecosystem
+      [4.7.3] Biodiversity and the effect of human interaction on ecosystems
+      [4.7.4] Trophic levels in an ecosystem (biology only)
+      [4.7.5] Food production (biology only)
+
+### AQA GCSE Physics (8463) — 8 sections / 30 sub-topics (sha b0ece1dba5a0f5d5)
+  NOTE: titles print under section 4 in this spec too; 8.x = practical layer
+  [4.1] Energy
+      [4.1.1] Energy changes in a system, and the ways energy is stored before and after such changes
+      [4.1.2] Conservation and dissipation of energy
+      [4.1.3] National and global energy resources
+  [4.2] Electricity
+      [4.2.1] Current, potential difference and resistance
+      [4.2.2] Series and parallel circuits
+      [4.2.3] Domestic uses and safety
+      [4.2.4] Energy transfers
+      [4.2.5] Static electricity (physics only)
+  [4.3] Particle model of matter
+      [4.3.1] Changes of state and the particle model
+      [4.3.2] Internal energy and energy transfers
+      [4.3.3] Particle model and pressure
+  [4.4] Atomic structure
+      [4.4.1] Atoms and isotopes
+      [4.4.2] Atoms and nuclear radiation
+      [4.4.3] Hazards and uses of radioactive emissions and of background radiation (physics only)
+      [4.4.4] Nuclear fission and fusion (physics only)
+  [4.5] Forces
+      [4.5.1] Forces and their interactions
+      [4.5.2] Work done and energy transfer
+      [4.5.3] Forces and elasticity
+      [4.5.4] Moments, levers and gears (physics only)
+      [4.5.5] Pressure and pressure differences in fluids (physics only)
+      [4.5.6] Forces and motion
+      [4.5.7] Momentum (HT only)
+  [4.6] Waves
+      [4.6.1] Waves in air, fluids and solids
+      [4.6.2] Electromagnetic waves
+      [4.6.3] Black body radiation (physics only)
+  [4.7] Magnetism and electromagnetism
+      [4.7.1] Permanent and induced magnetism, magnetic forces and fields
+      [4.7.2] The motor effect
+      [4.7.3] Induced potential, transformers and the National Grid (physics only) (HT only)
+  [4.8] Space physics (physics only)
+      [4.8.1] Solar system; stability of orbital motions; satellites (physics only)
+      [4.8.2] Red-shift (physics only)
+
+### AQA GCSE History 8145 / English Language 8700 — structural facts only
+History: components 1A/1B (thematic, e.g. 8145/1H Periodic study: medicine 101/803
+option codes), 2 British depth, 3 European/world depth. The 3.1-3.3 headings in
+the spec are component descriptions, NOT a question-linked topic code system —
+topicality must key off OPTION codes (e.g. 8145/2H | 102 Anglo-Saxon Britain
+c.500-1066), resolved from each paper's option list. English Language: single
+8700 component pair (Paper 1/2); topicality = skill×text-type grid (extractors/
+writers), not content codes. Building a fake 'topic code' taxonomy for these two
+subjects is explicitly FORBIDDEN — it would silently mis-key every paper.
+
+================================================================================
+PART 13 — EDEXCEL A-LEVEL CHEMISTRY (9CH0, 2015 spec, Issue 3 Feb 2024) — PROVEN
+source: qualifications.pearson.com/content/dam/pdf/A Level/Chemistry/2015/
+Specification and sample assessments/a-level-chemistry-2015-specification.pdf
+2,110,597 B · DAM template is LOWERCASE-HYPHENED
+'<series>-<subject>-<year>-specification.pdf'; the 152,114 B sentinel fires on
+any wrong year/series/folder-case → resolve each subject's exact path from its
+qualification page asset list. Topics as printed:
+  Topic 1: Atomic Structure and the Periodic Table
+  Topic 2: Bonding and Structure
+  Topic 3: Redox I
+  Topic 4: Inorganic Chemistry and the Periodic Table
+  Topic 5: Formulae, Equations and Amounts of Substance
+  Topic 6: Organic Chemistry I
+  Topic 7: Modern Analytical Techniques I
+  Topic 8: Energetics I
+  Topic 9: Kinetics I
+  Topic 10: Equilibrium I
+  Topic 11: Equilibrium II
+  Topic 12: Acid-base Equilibria
+  Topic 13: Energetics II
+  Topic 14: Redox II
+  Topic 15: Transition Metals
+  Topic 16: Kinetics II
+  Topic 17: Organic Chemistry II
+  Topic 18: Organic Chemistry III
+  Topic 19: Modern Analytical Techniques II
+  AS = Topics 1-10, full A-level adds 11-19 (verify from spec front matter).
+  Learning outcomes are numbered <topic>.<n> inside three-column content tables
+  (topic | outcomes | AO tags); the text layer splits cells, so agent: re-extract
+  outcome rows with a table-aware pass (pdfplumber/word-geometry), not regex
+  lines — same conclusion Edexcel IGCSE needs for its 1.xx outcomes.
+  EDEXCEL COVERAGE NOW: IGCSE Chem+Physics PROVEN (Parts 8,10); A-level Chem
+  PROVEN (this part). IGCSE Bio/Hist/Bus/Econ/Eng + GCSE(9-1) + IAL: per-subject
+  DAM paths unknown -> manifest rows RESOLVE. Other A-level subjects likely share
+  the lowercase-hyphen template with their own year folders — cheap next wins.
+
+FILE STATE: this file + repo/ext/AQA_ALL.json + repo/ext/EDX_AL_CHEM.json +
+repo/ext/*.pdf (official sources, hashed) = the provenance chain. AQA: 7
+subjects + 2 structure-facts, both levels. Edexcel: 3 subjects across both
+levels. CAIE remains the widest (23 subjects, repo-native).
+================================================================================

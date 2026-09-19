@@ -1,0 +1,125 @@
+TAXONOMY ADDITIONS — everything added since Parts 1-7 (extracted this session
+from official board PDFs; hashes + source URLs in TOPICS-FROM-OWN-CORPUS.txt).
+PROVEN = verbatim from the official PDF. Build taxonomy.json from the PDFs via
+fetch_topics.py — this digest is for orientation/cross-check, never the source.
+
+== EDEXCEL IGCSE CHEMISTRY 9CH0 (2017 spec, Issue 3 2024) — PROVEN ==
+ 1 Principles of chemistry: States of matter | Elements, compounds and mixtures |
+   Atomic structure | The Periodic Table | Chemical formulae, equations and
+   calculations | Ionic bonding | Covalent bonding | Metallic bonding | Electrolysis
+ 2 Inorganic chemistry: Group 1 (alkali metals) – lithium, sodium and potassium |
+   Group 7 (halogens) – chlorine, bromine and iodine | Gases in the atmosphere |
+   Reactivity series | Extraction and uses of metals | Acids, alkalis and
+   titrations | Acids, bases and salt preparations | Chemical tests
+ 3 Physical chemistry: Energetics | Rates of reaction | Reversible reactions and equilibria
+ 4 Organic chemistry: Introduction | Crude oil | Alkanes | Alkenes | Alcohols |
+   Carboxylic acids | Esters | Synthetic polymers
+  Outcomes numbered <section>.<n> (e.g. 1.29); 'C' suffix = beyond-Core (9-1
+   tier marker — keep, never drop). 'practical:' outcomes are topic-assignable.
+
+== EDEXCEL IGCSE PHYSICS 9PH0 (2017) — PROVEN ==
+ 1 Forces and motion: Units | Movement and position | Forces, movement, shape and momentum
+ 2 Electricity: Units | Mains electricity | Energy and voltage in circuits | Electric charge
+ 3 Waves: Units | Properties of waves | The electromagnetic spectrum | Light and sound
+ 4 Energy resources and energy transfers: Units | Energy transfers | Work and power |
+   Energy resources and electricity generation
+ 5 Solids, liquids and gases: Units | Density and pressure | Change of state | Ideal gas molecules
+ 6 Magnetism and electromagnetism: Units | Magnetism | Electromagnetism | Electromagnetic induction
+ 7 Radioactivity and particles: Radioactivity | Fission and fusion | Motion in the universe
+   | Stellar evolution | Cosmology  (sub-letters need re-sweep of pp30-33 — text-layer garble)
+ NOTE: '(a) Units' per topic = repeated skills block; document keep/skip as a deliberate choice.
+
+== EDEXCEL A-LEVEL CHEMISTRY 9CH0 (2015 spec, Issue 3 Feb 2024) — PROVEN ==
+ Topics 1-19 (AS = 1-10, A-level adds 11-19):
+  1 Atomic Structure and the Periodic Table · 2 Bonding and Structure · 3 Redox I · 4 Inorganic Chemistry and the Periodic Table · 5 Formulae, Equations and Amounts of Substance · 6 Organic Chemistry I · 7 Modern Analytical Techniques I · 8 Energetics I · 9 Kinetics I · 10 Equilibrium I · 11 Equilibrium II · 12 Acid-base Equilibria · 13 Energetics II · 14 Redox II · 15 Transition Metals · 16 Kinetics II · 17 Organic Chemistry II · 18 Organic Chemistry III · 19 Modern Analytical Techniques II
+  Outcomes <topic>.<n> live in 3-col tables — re-extract table-aware (pdfplumber), not line regex.
+
+== OCR A-LEVEL CHEMISTRY A H432 (+AS H032, 2015) — TOPICS PROVEN, tail sweep open ==
+1.1 Practical skills (written): Planning | Implementing | Analysis | Evaluation
+1.2 Practical endorsement: Practical skills | Use of apparatus and techniques
+2.1 Atoms and reactions: 2.1.1 Atomic structure and isotopes | 2.1.2 Compounds, formulae
+    and equations | 2.1.3 Amount of substance
+2.2 Electrons, bonding and structure: 2.2.1 Electron structure | 2.2.2 Bonding and structure
+3.1 The periodic table: 3.1.1 Periodicity | 3.1.2 Group 2 | 3.1.3 The halogens |
+    3.1.4 Qualitative analysis
+3.2 Physical chemistry: 3.2.1 Enthalpy changes | 3.2.2 Reaction rates | 3.2.3 Chemical equilibrium
+4.1 Basic concepts and hydrocarbons: 4.1.1 Basic concepts of organic chemistry |
+    4.1.2 Alkanes | 4.1.3 Alkenes
+4.2 Alcohols, haloalkanes and analysis: 4.2.1 Alcohols | 4.2.2 Haloalkanes |
+    4.2.3 Organic synthesis | 4.2.4 Analytical techniques
+5.1 Rates, equilibrium and pH: 5.1.1 How fast? | 5.1.2 How far? | 5.1.3 Acids, bases and buffers
+5.2 Energy: 5.2.1 Lattice enthalpy | 5.2.2 Enthalpy and entropy | 5.2.3 Redox and electrode potentials
+5.3 Transition elements
+6.x Aromatic compounds / carbonyl & carboxylic derivatives / spectroscopy etc. —
+    COMPLETE tail from the downloaded PDF (sha 83d7a5c6…): finish sweep with fetch_topics.py.
+
+== IB DP — PROVEN from IBO subject briefs (page-fetch; curl bot-blocked) ==
+ BIOLOGY (2025) — 4 themes, * = HL-only:
+  Unity and diversity: Water · Nucleic acids · Origins of cells* · Cell structure ·
+   Viruses* · Diversity of organisms · Classification and cladistics* · Evolution and
+   speciation · Conservation of biodiversity
+  Form and function: Carbohydrates and lipids · Proteins · Membranes and membrane
+   transport · Organelles and compartmentalization · Cell specialization · Gas
+   exchange · Transport · Muscle and motility* · Adaptation to environment · Ecological niches
+  Interaction and interdependence: Enzymes and metabolism · Cell respiration ·
+   Photosynthesis · Chemical signalling* · Neural signalling* · Integration of body
+   systems · Defence against disease · Populations and communities · Transfer of energy and matter
+  Continuity and change: DNA replication · Protein synthesis · Mutations and gene
+   editing · Cell and nuclear division · Gene expression* · Water potential* ·
+   Reproduction · Inheritance · Homeostasis · Natural selection* · Sustainability and
+   change* · Climate change
+ PHYSICS (2025) — • = extra-HL content, ••• = HL-only:
+  A Space, time and motion: A.1 Kinematics · A.2 Forces and momentum · A.3 Work,
+   energy and power · A.4 Rigid body mechanics••• · A.5 Galilean and special relativity•••
+  B The particulate nature of matter: B.1 Thermal energy transfers · B.2 Greenhouse
+   effect · B.3 Gas laws · B.4 Thermodynamics•• · B.5 Current and circuits•
+  C Wave behaviour: C.1 Simple harmonic motion•• · C.2 Wave model · C.3 Wave
+   phenomena•• · C.4 Standing waves and resonance · C.5 Doppler effect••
+  D Fields: D.1 Gravitational fields•• · D.2 Electric and magnetic fields•• ·
+   D.3 Motion in electromagnetic fields · D.4 Induction•••
+  E Nuclear and quantum physics: E.1 Structure of the atom•• · E.2 Quantum
+   physics••• · E.3 Radioactive decay•• · E.4 Fission · E.5 Fusion and stars
+
+== AQA EXPANSION — PROVEN (all from filestore.aqa.org.uk PDFs; pattern AQA-<codes>-SP-<year>.PDF) ==
+ A-level Biology 7401/7402:
+  3.1 Biological molecules  (1:Monomers and polymers; 2:Carbohydrates; 3:Lipids; 4:Proteins; 5:Nucleic acids are important in; 7:Water; 8:Inorganic ions)
+  3.2 Cells  (1:Cell structure; 2:All cells arise from other cel; 3:Transport across cell membrane; 4:Cell recognition and the immun)
+  3.3 Organisms exchange substances with their  (1:Surface area to volume ratio; 2:Gas exchange; 3:Digestion and absorption; 4:Mass transport)
+  3.4 Genetic information, variation and relationships  (1:DNA, genes and chromosomes; 2:DNA and protein synthesis; 3:Genetic diversity can arise as; 4:Genetic diversity and adaptati; 5:Species and taxonomy; 6:Biodiversity within a communit; 7:Investigating diversity)
+  3.5 Energy transfers in and between organisms (A-lev  (1:Photosynthesis (A-level only); 2:Respiration (A-level only); 3:Energy and ecosystems (A-level; 4:Nutrient cycles (A-level only))
+  3.6 Organisms respond to changes in their internal a  (1:Stimuli, both internal and ext; 2:Nervous coordination (A-level ; 3:Skeletal muscles are stimulate; 4:Homeostasis is the maintenance)
+  3.7 Genetics, populations, evolution and ecosystems   (1:Inheritance (A-level only); 2:Populations (A-level only); 3:Evolution may lead to speciati; 4:Populations in ecosystems (A-l)
+  3.8 The control of gene expression (A-level only)  (1:Alteration of the sequence of ; 2:Gene expression is controlled ; 3:Using genome projects (A-level; 4:Gene technologies allow the st)
+ A-level Physics 7407/7408:
+  3.1 Measurements and their errors  (1:Use of SI units and their pref; 2:Limitation of physical measure; 3:Estimation of physical quantit)
+  3.2 Particles and radiation  (1:Particles; 2:Electromagnetic radiation and )
+  3.3 Waves  (1:Progressive and stationary wav; 2:Refraction, diffraction and in)
+  3.4 Mechanics and materials  (1:Force, energy and momentum; 2:Materials)
+  3.5 Electricity  (1:Current electricity)
+  3.6 Further mechanics and thermal physics (A-level o  (1:Periodic motion (A-level only); 2:Thermal physics (A-level only))
+  3.7 Fields and their consequences (A-level only)  (1:Fields (A-level only); 2:Gravitational fields (A-level ; 3:Electric fields (A-level only); 4:Capacitance (A-level only); 5:Magnetic fields (A-level only))
+  3.8 Nuclear physics (A-level only)  (1:Radioactivity (A-level only))
+  3.9 Astrophysics (A-level only)  (1:Telescopes (A-level only); 2:Classification of stars (A-lev; 3:Cosmology (A-level only))
+  3.10 Medical physics (A-level only)  (1:Physics of the eye (A-level on; 2:Physics of the ear (A-level on; 3:Biological measurement (A-leve; 4:Non-ionising imaging (A-level ; 5:X-ray imaging (A-level only); 6:Radionuclide imaging and thera)
+  3.11 Engineering physics (A-level only)  (1:Rotational dynamics (A-level o; 2:Thermodynamics and engines (A-)
+  3.12 Turning points in physics (A-level only)  (1:The discovery of the electron ; 2:Wave-particle duality (A-level; 3:Special relativity (A-level on)
+  3.13 Electronics (A-level only)  (1:Discrete semiconductor devices; 2:Analogue and digital signals (; 3:Analogue signal processing (A-; 4:Operational amplifier in:; 5:Digital signal processing (A-l; 6:Data communication systems (A-)
+ GCSE Biology 8461:
+  4.1 Cell biology  (1:Cell structure; 2:Cell division; 3:Transport in cells)
+  4.2 Organisation  (1:Principles of organisation; 2:Animal tissues, organs and org; 3:Plant tissues, organs and syst)
+  4.3 Infection and response  (1:Communicable diseases; 2:Monoclonal antibodies (biology; 3:Plant disease (biology only))
+  4.4 Bioenergetics  (1:Photosynthesis; 2:Respiration)
+  4.5 Homeostasis and response  (1:Homeostasis; 2:The human nervous system; 3:Hormonal coordination in human; 4:Plant hormones (biology only))
+  4.6 Inheritance, variation and evolution  (1:Reproduction; 2:Variation and evolution; 3:The development of understandi; 4:Classification of living organ)
+  4.7 Ecology  (1:Adaptations, interdependence a; 2:Organisation of an ecosystem; 3:Biodiversity and the effect of; 4:Trophic levels in an ecosystem; 5:Food production (biology only))
+ GCSE Physics 8463:
+  4.1 Energy  (1:Energy changes in a system, an; 2:Conservation and dissipation o; 3:National and global energy res)
+  4.2 Electricity  (1:Current, potential difference ; 2:Series and parallel circuits; 3:Domestic uses and safety; 4:Energy transfers; 5:Static electricity (physics on)
+  4.3 Particle model of matter  (1:Changes of state and the parti; 2:Internal energy and energy tra; 3:Particle model and pressure)
+  4.4 Atomic structure  (1:Atoms and isotopes; 2:Atoms and nuclear radiation; 3:Hazards and uses of radioactiv; 4:Nuclear fission and fusion (ph)
+  4.5 Forces  (1:Forces and their interactions; 2:Work done and energy transfer; 3:Forces and elasticity; 4:Moments, levers and gears (phy; 5:Pressure and pressure differen; 6:Forces and motion; 7:Momentum (HT only))
+  4.6 Waves  (1:Waves in air, fluids and solid; 2:Electromagnetic waves; 3:Black body radiation (physics )
+  4.7 Magnetism and electromagnetism  (1:Permanent and induced magnetis; 2:The motor effect; 3:Induced potential, transformer)
+  4.8 Space physics (physics only)  (1:Solar system; stability of orb; 2:Red-shift (physics only))
+ History 8145: components + center-chosen depth studies — NO national topic tree, ever.
+ English Language 8700: skill taxonomy (reading/writing layer), not content topics.
